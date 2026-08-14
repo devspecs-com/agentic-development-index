@@ -1,0 +1,75 @@
+{
+  "schema_version": 3,
+  "event_kind": "task_checkpoint",
+  "checkpoint_id": "cp_20260814T120717Z_a05-2_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A05-2",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A05-2",
+  "slice_title": "Flatten primary catalog into root README",
+  "parent_slice": "A05",
+  "iteration": "A05-2",
+  "stage": "validated",
+  "decision": "promote",
+  "created_at": "2026-08-14T12:07:17Z",
+  "goal": "Make the root README the complete, scannable Agentic Development Index",
+  "description": "Flattened all 40 format, guide, and tool records into the root README with inline summaries and a complete tool matrix. Detailed profiles remain optional evidence pages, and every profile now returns directly to its root catalog section. Validation rejects hidden records and bare root links.",
+  "note": "Forty record return links were redirected from nested category indexes to the relevant root README section. Category files remain available for maintenance and evidence depth.",
+  "resources": [
+    "../A00-index.md",
+    "../A05-2-flatten-primary-catalog-into-root-readme-plan.md",
+    "../A05-2-flatten-primary-catalog-into-root-readme-result.md",
+    "../task.json",
+    "https://github.com/devspecs-com/agentic-development-index/tree/codex/flatten-root-catalog"
+  ],
+  "files_edited": [
+    "README.md",
+    "scripts/index-validation.mjs",
+    "tests/index-validation.test.mjs",
+    "fixtures/valid/README.md"
+  ],
+  "tests_run": [
+    "npm test",
+    "npm run validate",
+    "npm run qa:links"
+  ],
+  "actual_context": {
+    "files_edited": [
+      "README.md",
+      "scripts/index-validation.mjs",
+      "tests/index-validation.test.mjs",
+      "fixtures/valid/README.md"
+    ],
+    "tests_run": [
+      "npm test",
+      "npm run validate",
+      "npm run qa:links"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "plan_refs": [
+      "../A00-index.md",
+      "../A05-2-flatten-primary-catalog-into-root-readme-plan.md",
+      "../A05-2-flatten-primary-catalog-into-root-readme-result.md",
+      "../task.json",
+      "https://github.com/devspecs-com/agentic-development-index/tree/codex/flatten-root-catalog"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "ux",
+      "summary": "A GitHub-first resource index must expose names and useful summaries in the root README; category indexes and evidence profiles should not be required browsing steps.",
+      "evidence_refs": [
+        "README.md"
+      ],
+      "applies_to": "A05-2",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A06-1",
+    "recommended_decision": "complete"
+  }
+}
