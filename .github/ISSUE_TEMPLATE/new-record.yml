@@ -1,0 +1,48 @@
+name: New record
+description: Propose a format, learning guide, or tool for the index
+title: "Add: "
+body:
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Format
+        - Learn
+        - Tool
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why it fits
+      description: Explain the durable context, intent, work-state, evidence, or handoff problem this record covers.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Primary sources
+      description: Provide canonical documentation or source links for non-obvious claims.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Known limitations
+      description: Note important boundaries, missing evidence, or claims the record should avoid.
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship disclosure
+      description: State whether you maintain, work for, invest in, or are sponsored by the project. Write "none" when applicable.
+    validations:
+      required: true

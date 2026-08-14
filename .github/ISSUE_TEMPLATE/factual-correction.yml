@@ -1,0 +1,60 @@
+name: Factual correction
+description: Correct a sourced claim in an existing record
+title: "Correction: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are welcome. Keep the request focused on a verifiable claim and disclose any relationship to the affected project.
+  - type: input
+    id: record
+    attributes:
+      label: Record
+      description: Link to the affected format, guide, or tool profile.
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current claim
+      description: Quote the claim that is inaccurate or outdated.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: State the smallest accurate replacement.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary source
+      description: Link to canonical documentation, source code, or reproducible evidence.
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: Evidence class
+      options:
+        - Canonical documentation
+        - Canonical source code
+        - Reproduced behavior
+        - Project-reported behavior
+        - Independent analysis
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction receipt
+      description: For reproduced behavior, include the version, command, fixture, output, and date.
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship disclosure
+      description: State whether you maintain, work for, invest in, or are sponsored by the affected project. Write "none" when applicable.
+    validations:
+      required: true

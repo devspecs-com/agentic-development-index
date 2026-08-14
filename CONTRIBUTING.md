@@ -16,7 +16,7 @@ Disclose whether you maintain, work for, invest in, or are sponsored by a projec
 
 ### Correct A Fact
 
-Open a focused pull request or issue containing:
+Open a focused pull request or use the [factual correction form](.github/ISSUE_TEMPLATE/factual-correction.yml). Include:
 
 - the affected record and field;
 - the current claim;
@@ -24,9 +24,11 @@ Open a focused pull request or issue containing:
 - a canonical or primary source;
 - your relationship to the project.
 
+Change `last_verified` only after rechecking every cited claim in the record. A reproduced claim also needs the command, fixture, and receipt needed to repeat it.
+
 ### Add A Format Or Tool
 
-Explain how the item fits the charter, copy the relevant Markdown template, cite primary sources for non-obvious claims, and avoid comparison language that is not supported by evidence.
+Explain how the item fits the charter, copy the relevant Markdown template, cite primary sources for non-obvious claims, and avoid comparison language that is not supported by evidence. The [new record form](.github/ISSUE_TEMPLATE/new-record.yml) is available when a contributor is not ready to open a pull request.
 
 ### Improve Learning Content
 
@@ -50,6 +52,8 @@ Reviewers check:
 - conflicts of interest.
 
 Passing automated validation does not guarantee inclusion.
+
+The DevSpecs maintainers also maintain this index. DevSpecs records follow the same alphabetical ordering, evidence labels, verification dates, and correction process as every other record. Comparative claims involving DevSpecs require review from someone without that affiliation.
 
 ## Source Of Truth
 

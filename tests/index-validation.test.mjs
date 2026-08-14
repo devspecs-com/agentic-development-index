@@ -3,6 +3,7 @@ import { cp, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import test from "node:test";
+import { parse } from "yaml";
 
 import { validateIndex } from "../scripts/index-validation.mjs";
 
@@ -88,10 +89,22 @@ test("unsupported front matter fields fail instead of becoming metadata bags", a
   );
 });
 
-test("the production repository validates the initial format and learning catalog", async () => {
+test("the production repository validates the initial format, learning, and tool catalog", async () => {
   const { errors, records } = await validateIndex(repositoryRoot);
   assert.deepEqual(errors, []);
-  assert.equal(records.length, 16);
+  assert.equal(records.length, 36);
   assert.equal(records.filter(({ data }) => data.category === "format").length, 11);
   assert.equal(records.filter(({ data }) => data.category === "learn").length, 5);
+  assert.equal(records.filter(({ data }) => data.category === "tool").length, 20);
+});
+
+test("factual correction and new record forms remain valid YAML", async () => {
+  for (const filename of ["factual-correction.yml", "new-record.yml"]) {
+    const source = await readFile(path.join(repositoryRoot, ".github", "ISSUE_TEMPLATE", filename), "utf8");
+    const form = parse(source);
+    assert.equal(typeof form.name, "string");
+    assert.equal(typeof form.description, "string");
+    assert.ok(Array.isArray(form.body));
+    assert.ok(form.body.length >= 5);
+  }
 });

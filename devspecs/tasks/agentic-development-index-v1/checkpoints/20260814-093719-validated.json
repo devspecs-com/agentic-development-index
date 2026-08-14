@@ -1,0 +1,187 @@
+{
+  "schema_version": 2,
+  "checkpoint_id": "cp_20260814T093719Z_a04_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A04",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A04",
+  "slice_title": "Publish an evidence-backed tool landscape and correction workflow",
+  "parent_slice": "A04",
+  "stage": "validated",
+  "decision": "promote",
+  "created_at": "2026-08-14T09:37:19Z",
+  "goal": "Publish an evidence-backed tool landscape and correction workflow",
+  "description": "Published 20 sourced tool profiles with explicit capability boundaries, limitations, affiliation disclosure, and correction forms.",
+  "resources": [
+    "../A00-index.md",
+    "../A04-publish-an-evidence-backed-tool-landscape-and-co-plan.md",
+    "../A04-publish-an-evidence-backed-tool-landscape-and-co-result.md",
+    "../task.json"
+  ],
+  "files_edited": [
+    "CONTRIBUTING.md",
+    "devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-result.md",
+    "tests/index-validation.test.mjs",
+    "tools/README.md",
+    ".github/ISSUE_TEMPLATE/factual-correction.yml",
+    ".github/ISSUE_TEMPLATE/new-record.yml",
+    ".github/pull_request_template.md",
+    "tools/aider.md",
+    "tools/augment-code.md",
+    "tools/backlog-md.md",
+    "tools/beads.md",
+    "tools/bmad-method.md",
+    "tools/claude-code.md",
+    "tools/cline.md",
+    "tools/codex.md",
+    "tools/continue.md",
+    "tools/cursor.md",
+    "tools/devspecs.md",
+    "tools/entire.md",
+    "tools/github-copilot.md",
+    "tools/github-spec-kit.md",
+    "tools/kiro.md",
+    "tools/openhands.md",
+    "tools/openspec.md",
+    "tools/sourcegraph-cody.md",
+    "tools/specstory.md",
+    "tools/tessl.md"
+  ],
+  "tests_run": [
+    "npm test",
+    "npm run validate"
+  ],
+  "actual_context": {
+    "files_edited": [
+      "CONTRIBUTING.md",
+      "devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-result.md",
+      "tests/index-validation.test.mjs",
+      "tools/README.md",
+      ".github/ISSUE_TEMPLATE/factual-correction.yml",
+      ".github/ISSUE_TEMPLATE/new-record.yml",
+      ".github/pull_request_template.md",
+      "tools/aider.md",
+      "tools/augment-code.md",
+      "tools/backlog-md.md",
+      "tools/beads.md",
+      "tools/bmad-method.md",
+      "tools/claude-code.md",
+      "tools/cline.md",
+      "tools/codex.md",
+      "tools/continue.md",
+      "tools/cursor.md",
+      "tools/devspecs.md",
+      "tools/entire.md",
+      "tools/github-copilot.md",
+      "tools/github-spec-kit.md",
+      "tools/kiro.md",
+      "tools/openhands.md",
+      "tools/openspec.md",
+      "tools/sourcegraph-cody.md",
+      "tools/specstory.md",
+      "tools/tessl.md"
+    ],
+    "tests_run": [
+      "npm test",
+      "npm run validate"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "git_diff": {
+      "command": "git status --short --untracked-files=all; git diff --stat; git diff --name-only; git diff --cached --name-only; git ls-files --others --exclude-standard",
+      "status": " M CONTRIBUTING.md\n M devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-result.md\n M tests/index-validation.test.mjs\n M tools/README.md\n?? .github/ISSUE_TEMPLATE/factual-correction.yml\n?? .github/ISSUE_TEMPLATE/new-record.yml\n?? .github/pull_request_template.md\n?? tools/aider.md\n?? tools/augment-code.md\n?? tools/backlog-md.md\n?? tools/beads.md\n?? tools/bmad-method.md\n?? tools/claude-code.md\n?? tools/cline.md\n?? tools/codex.md\n?? tools/continue.md\n?? tools/cursor.md\n?? tools/devspecs.md\n?? tools/entire.md\n?? tools/github-copilot.md\n?? tools/github-spec-kit.md\n?? tools/kiro.md\n?? tools/openhands.md\n?? tools/openspec.md\n?? tools/sourcegraph-cody.md\n?? tools/specstory.md\n?? tools/tessl.md\n",
+      "stat": " CONTRIBUTING.md                                    |  8 +++-\n ...evidence-backed-tool-landscape-and-co-result.md | 43 +++++++++++++++++-----\n tests/index-validation.test.mjs                    | 17 ++++++++-\n tools/README.md                                    | 40 +++++++++++++++++---\n 4 files changed, 89 insertions(+), 19 deletions(-)\n",
+      "changed_files": [
+        "CONTRIBUTING.md",
+        "devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-result.md",
+        "tests/index-validation.test.mjs",
+        "tools/README.md",
+        ".github/ISSUE_TEMPLATE/factual-correction.yml",
+        ".github/ISSUE_TEMPLATE/new-record.yml",
+        ".github/pull_request_template.md",
+        "tools/aider.md",
+        "tools/augment-code.md",
+        "tools/backlog-md.md",
+        "tools/beads.md",
+        "tools/bmad-method.md",
+        "tools/claude-code.md",
+        "tools/cline.md",
+        "tools/codex.md",
+        "tools/continue.md",
+        "tools/cursor.md",
+        "tools/devspecs.md",
+        "tools/entire.md",
+        "tools/github-copilot.md",
+        "tools/github-spec-kit.md",
+        "tools/kiro.md",
+        "tools/openhands.md",
+        "tools/openspec.md",
+        "tools/sourcegraph-cody.md",
+        "tools/specstory.md",
+        "tools/tessl.md"
+      ],
+      "max_bytes": 12000,
+      "truncated": false
+    },
+    "git_diff_paths": [
+      "CONTRIBUTING.md",
+      "devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-result.md",
+      "tests/index-validation.test.mjs",
+      "tools/README.md",
+      ".github/ISSUE_TEMPLATE/factual-correction.yml",
+      ".github/ISSUE_TEMPLATE/new-record.yml",
+      ".github/pull_request_template.md",
+      "tools/aider.md",
+      "tools/augment-code.md",
+      "tools/backlog-md.md",
+      "tools/beads.md",
+      "tools/bmad-method.md",
+      "tools/claude-code.md",
+      "tools/cline.md",
+      "tools/codex.md",
+      "tools/continue.md",
+      "tools/cursor.md",
+      "tools/devspecs.md",
+      "tools/entire.md",
+      "tools/github-copilot.md",
+      "tools/github-spec-kit.md",
+      "tools/kiro.md",
+      "tools/openhands.md",
+      "tools/openspec.md",
+      "tools/sourcegraph-cody.md",
+      "tools/specstory.md",
+      "tools/tessl.md"
+    ],
+    "plan_refs": [
+      "../A00-index.md",
+      "../A04-publish-an-evidence-backed-tool-landscape-and-co-plan.md",
+      "../A04-publish-an-evidence-backed-tool-landscape-and-co-result.md",
+      "../task.json"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "evidence",
+      "summary": "Canonical profiles support useful navigation without implying independently reproduced behavior.",
+      "evidence_refs": [
+        "tools/README.md"
+      ],
+      "applies_to": "A05 GitHub navigation",
+      "confidence": "high"
+    },
+    {
+      "learning_type": "taxonomy",
+      "summary": "Repository context, instruction memory, task lifecycle, and session provenance must remain distinct.",
+      "evidence_refs": [
+        "tools/README.md"
+      ],
+      "applies_to": "tool comparisons",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A05"
+  }
+}
