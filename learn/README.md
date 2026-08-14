@@ -12,6 +12,6 @@ Concepts, guides, comparisons, and reports about preserving intent and work stat
 
 ## Contribute
 
-Start with the [learning-page template](../templates/learn.md) and the [record-authoring guide](../docs/authoring-records.md).
+Start with the [learning-page template](../templates/learn.md) and the [record-authoring guide](../docs/authoring-records.md). Found an inaccurate claim? [Open a focused correction](https://github.com/devspecs-com/agentic-development-index/issues/new?template=factual-correction.yml).
 
 [Back to the index](../README.md)

@@ -98,8 +98,8 @@ test("the production repository validates the initial format, learning, and tool
   assert.equal(records.filter(({ data }) => data.category === "tool").length, 20);
 });
 
-test("factual correction and new record forms remain valid YAML", async () => {
-  for (const filename of ["factual-correction.yml", "new-record.yml"]) {
+test("contribution issue forms remain valid YAML", async () => {
+  for (const filename of ["factual-correction.yml", "disputed-claim.yml", "new-record.yml"]) {
     const source = await readFile(path.join(repositoryRoot, ".github", "ISSUE_TEMPLATE", filename), "utf8");
     const form = parse(source);
     assert.equal(typeof form.name, "string");
@@ -107,4 +107,13 @@ test("factual correction and new record forms remain valid YAML", async () => {
     assert.ok(Array.isArray(form.body));
     assert.ok(form.body.length >= 5);
   }
+});
+
+test("the root README exposes the live catalog and validation status", async () => {
+  const source = await readFile(path.join(repositoryRoot, "README.md"), "utf8");
+  assert.match(source, /formats\/README\.md/);
+  assert.match(source, /learn\/README\.md/);
+  assert.match(source, /tools\/README\.md/);
+  assert.match(source, /actions\/workflows\/validate\.yml\/badge\.svg/);
+  assert.doesNotMatch(source, /devspecs\/tasks/);
 });

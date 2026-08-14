@@ -16,7 +16,7 @@ Disclose whether you maintain, work for, invest in, or are sponsored by a projec
 
 ### Correct A Fact
 
-Open a focused pull request or use the [factual correction form](.github/ISSUE_TEMPLATE/factual-correction.yml). Include:
+Open a focused pull request or use the [factual correction form](https://github.com/devspecs-com/agentic-development-index/issues/new?template=factual-correction.yml). Include:
 
 - the affected record and field;
 - the current claim;
@@ -26,9 +26,13 @@ Open a focused pull request or use the [factual correction form](.github/ISSUE_T
 
 Change `last_verified` only after rechecking every cited claim in the record. A reproduced claim also needs the command, fixture, and receipt needed to repeat it.
 
+### Dispute A Classification
+
+Use the [disputed claim form](https://github.com/devspecs-com/agentic-development-index/issues/new?template=disputed-claim.yml) when the cited facts may be accurate but their interpretation, category, or relationship to another capability is contested. Include the competing interpretation and its strongest source; do not silently rewrite a material disagreement.
+
 ### Add A Format Or Tool
 
-Explain how the item fits the charter, copy the relevant Markdown template, cite primary sources for non-obvious claims, and avoid comparison language that is not supported by evidence. The [new record form](.github/ISSUE_TEMPLATE/new-record.yml) is available when a contributor is not ready to open a pull request.
+Explain how the item fits the charter, copy the relevant Markdown template, cite primary sources for non-obvious claims, and avoid comparison language that is not supported by evidence. The [new record form](https://github.com/devspecs-com/agentic-development-index/issues/new?template=new-record.yml) is available when a contributor is not ready to open a pull request.
 
 ### Improve Learning Content
 
@@ -58,6 +62,8 @@ The DevSpecs maintainers also maintain this index. DevSpecs records follow the s
 ## Source Of Truth
 
 Edit the Markdown profile or guide directly. Lightweight metadata supports navigation and checks, but contributors do not maintain the same factual copy in a second file. See [docs/authoring-records.md](docs/authoring-records.md) for templates and validation.
+
+Maintainers preparing a release should also use the [GitHub repository checklist](docs/maintainer-checklist.md).
 
 ## Conduct
 

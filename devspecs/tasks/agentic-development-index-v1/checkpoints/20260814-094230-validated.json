@@ -1,0 +1,121 @@
+{
+  "schema_version": 2,
+  "checkpoint_id": "cp_20260814T094230Z_a05_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A05",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A05",
+  "slice_title": "Polish the GitHub-first index experience",
+  "parent_slice": "A05",
+  "stage": "validated",
+  "decision": "promote",
+  "created_at": "2026-08-14T09:42:30Z",
+  "goal": "Polish the GitHub-first index experience",
+  "description": "Published a compact three-category root, direct correction paths, enforced breadcrumbs, and repository settings guidance.",
+  "resources": [
+    "../A00-index.md",
+    "../A05-polish-the-github-first-index-experience-plan.md",
+    "../A05-polish-the-github-first-index-experience-result.md",
+    "../task.json"
+  ],
+  "files_edited": [
+    "CONTRIBUTING.md",
+    "README.md",
+    "devspecs/tasks/agentic-development-index-v1/A05-polish-the-github-first-index-experience-result.md",
+    "formats/README.md",
+    "learn/README.md",
+    "scripts/index-validation.mjs",
+    "tests/index-validation.test.mjs",
+    "tools/README.md",
+    ".github/ISSUE_TEMPLATE/disputed-claim.yml",
+    "docs/maintainer-checklist.md"
+  ],
+  "tests_run": [
+    "npm test",
+    "npm run validate"
+  ],
+  "actual_context": {
+    "files_edited": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "devspecs/tasks/agentic-development-index-v1/A05-polish-the-github-first-index-experience-result.md",
+      "formats/README.md",
+      "learn/README.md",
+      "scripts/index-validation.mjs",
+      "tests/index-validation.test.mjs",
+      "tools/README.md",
+      ".github/ISSUE_TEMPLATE/disputed-claim.yml",
+      "docs/maintainer-checklist.md"
+    ],
+    "tests_run": [
+      "npm test",
+      "npm run validate"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "git_diff": {
+      "command": "git status --short --untracked-files=all; git diff --stat; git diff --name-only; git diff --cached --name-only; git ls-files --others --exclude-standard",
+      "status": " M CONTRIBUTING.md\n M README.md\n M devspecs/tasks/agentic-development-index-v1/A05-polish-the-github-first-index-experience-result.md\n M formats/README.md\n M learn/README.md\n M scripts/index-validation.mjs\n M tests/index-validation.test.mjs\n M tools/README.md\n?? .github/ISSUE_TEMPLATE/disputed-claim.yml\n?? docs/maintainer-checklist.md\n",
+      "stat": " CONTRIBUTING.md                                    | 10 +++-\n README.md                                          | 65 ++++++++++------------\n ...ish-the-github-first-index-experience-result.md | 30 ++++++----\n formats/README.md                                  |  2 +-\n learn/README.md                                    |  2 +-\n scripts/index-validation.mjs                       | 24 ++++++++\n tests/index-validation.test.mjs                    | 13 ++++-\n tools/README.md                                    |  2 +-\n 8 files changed, 96 insertions(+), 52 deletions(-)\n",
+      "changed_files": [
+        "CONTRIBUTING.md",
+        "README.md",
+        "devspecs/tasks/agentic-development-index-v1/A05-polish-the-github-first-index-experience-result.md",
+        "formats/README.md",
+        "learn/README.md",
+        "scripts/index-validation.mjs",
+        "tests/index-validation.test.mjs",
+        "tools/README.md",
+        ".github/ISSUE_TEMPLATE/disputed-claim.yml",
+        "docs/maintainer-checklist.md"
+      ],
+      "max_bytes": 12000,
+      "truncated": false
+    },
+    "git_diff_paths": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "devspecs/tasks/agentic-development-index-v1/A05-polish-the-github-first-index-experience-result.md",
+      "formats/README.md",
+      "learn/README.md",
+      "scripts/index-validation.mjs",
+      "tests/index-validation.test.mjs",
+      "tools/README.md",
+      ".github/ISSUE_TEMPLATE/disputed-claim.yml",
+      "docs/maintainer-checklist.md"
+    ],
+    "plan_refs": [
+      "../A00-index.md",
+      "../A05-polish-the-github-first-index-experience-plan.md",
+      "../A05-polish-the-github-first-index-experience-result.md",
+      "../task.json"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "navigation",
+      "summary": "Live categories should lead; future datasets and benchmarks belong in the roadmap until credible inventory exists.",
+      "evidence_refs": [
+        "README.md"
+      ],
+      "applies_to": "root README",
+      "confidence": "high"
+    },
+    {
+      "learning_type": "contribution-ux",
+      "summary": "Issue links must open the form, not merely expose the YAML template source.",
+      "evidence_refs": [
+        "formats/README.md",
+        "learn/README.md",
+        "tools/README.md"
+      ],
+      "applies_to": "category indexes",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A06"
+  }
+}

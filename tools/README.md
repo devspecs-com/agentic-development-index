@@ -40,6 +40,6 @@ These groups overlap. They are navigation aids, not scores or claims of equivale
 
 ## Contribute
 
-Start with the [tool template](../templates/tool.md), the [record-authoring guide](../docs/authoring-records.md), or a focused [correction request](../.github/ISSUE_TEMPLATE/factual-correction.yml).
+Start with the [tool template](../templates/tool.md), the [record-authoring guide](../docs/authoring-records.md), a focused [correction request](https://github.com/devspecs-com/agentic-development-index/issues/new?template=factual-correction.yml), or a [new-record proposal](https://github.com/devspecs-com/agentic-development-index/issues/new?template=new-record.yml).
 
 [Back to the index](../README.md)

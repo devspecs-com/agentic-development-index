@@ -1,0 +1,50 @@
+name: Disputed claim or classification
+description: Challenge an interpretation without erasing the underlying disagreement
+title: "Dispute: "
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Record
+      description: Link to the affected format, guide, or tool profile.
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim or classification
+      description: Quote the interpretation or category being challenged.
+    validations:
+      required: true
+  - type: textarea
+    id: concern
+    attributes:
+      label: Why it is disputed
+      description: Explain the material ambiguity or competing interpretation.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting sources
+      description: Link the strongest primary evidence for each interpretation when available.
+    validations:
+      required: true
+  - type: dropdown
+    id: requested_outcome
+    attributes:
+      label: Requested outcome
+      options:
+        - Clarify the record
+        - Mark the record disputed
+        - Change the classification
+        - Archive the claim
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship disclosure
+      description: State whether you maintain, work for, invest in, or are sponsored by an affected project. Write "none" when applicable.
+    validations:
+      required: true

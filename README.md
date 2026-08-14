@@ -1,55 +1,50 @@
 # Agentic Development Index
 
-An evidence-backed index of the formats, knowledge, and tools that preserve context, intent, decisions, and work state in AI-assisted software development.
+[![Validate index](https://github.com/devspecs-com/agentic-development-index/actions/workflows/validate.yml/badge.svg)](https://github.com/devspecs-com/agentic-development-index/actions/workflows/validate.yml)
+[![Code: MIT](https://img.shields.io/badge/code-MIT-2ea44f)](LICENSES.md)
+[![Content: CC BY 4.0](https://img.shields.io/badge/content-CC_BY_4.0-2ea44f)](LICENSES.md)
 
-The index is maintained by [DevSpecs](https://www.devspecs.com/), but it is designed to be useful independently of DevSpecs. Inclusion is free, factual claims require sources, and DevSpecs is evaluated under the same rules as every other project.
+An evidence-backed GitHub index of formats, practical guides, and tools for preserving context, intent, decisions, evidence, and work state in AI-assisted software development.
 
-## What It Covers
+Use it to understand an artifact, improve an agent workflow, or compare what different tools actually preserve.
 
-- **[Formats](formats/README.md):** durable artifacts such as ADRs, RFCs, PRDs, agent instructions, plans, task slices, checkpoints, and handoffs.
-- **[Learn](learn/README.md):** practical explanations, guides, comparisons, and periodic reports.
-- **[Tools](tools/README.md):** software for context, memory, specifications, lifecycle state, navigation, orchestration, and provenance.
-- **Datasets:** future registries for corpora with explicit provenance, licensing, and permitted use.
-- **Benchmarks:** future registries for reproducible evaluations and clearly attributed external results.
+## Start Here
 
-The first public release includes Formats, Learn, and Tools. Dataset and Benchmark navigation will appear only after each section has enough credible records to be useful.
+| Browse | What you will find | A useful first record |
+| --- | --- | --- |
+| **[Formats](formats/README.md)** | 11 durable artifact shapes for intent, instructions, execution, evidence, and continuity. | [Task slice](formats/task-slice.md) |
+| **[Learn](learn/README.md)** | 5 practical guides for context recovery, asynchronous work, handoffs, and iteration. | [The work layer between issue and diff](learn/intent-work-layer.md) |
+| **[Tools](tools/README.md)** | 20 sourced profiles across repository context, memory, lifecycle, specifications, and session provenance. | [Browse the tool landscape](tools/README.md) |
 
-## The Question
+## Why It Exists
 
-The index focuses on one question:
+Issue trackers describe intended work and Git preserves code history. Coding agents also produce plans, attempts, local decisions, test evidence, and handoffs between those layers. This index documents the artifacts and tools that keep that work inspectable.
 
-> What durable substrate helps humans and coding agents understand intent, preserve work state, and continue safely across development sessions?
+It is not a general AI-tools directory, paid marketplace, endorsement program, or overall leaderboard.
 
-It is not a general AI tools directory, a paid marketplace, or a leaderboard.
+## Evidence Rules
 
-## Trust Model
-
-- Every non-obvious claim links to primary documentation, source, or reproducible evidence.
-- Profiles distinguish project-reported behavior from behavior reproduced by index maintainers.
-- Records include attribution, status, and a `last_verified` date.
-- Maintainers can submit focused factual corrections.
+- Non-obvious claims cite canonical documentation, source, or reproducible evidence.
+- Project-reported behavior stays distinct from behavior reproduced by index maintainers.
+- Records show status, attribution, limitations, and a `last_verified` date.
+- Inclusion is free. Paid placement and required backlinks are not accepted.
 - Affiliations and conflicts of interest are disclosed.
-- No paid placement or required backlinks.
 
-See [METHODOLOGY.md](METHODOLOGY.md), [CHARTER.md](CHARTER.md), and [CONTRIBUTING.md](CONTRIBUTING.md).
+Read the [methodology](METHODOLOGY.md), [project charter](CHARTER.md), and [taxonomy](docs/taxonomy.md).
 
-## Repository Model
+## Contribute
 
-This GitHub repository is the canonical v1 product. Its Markdown indexes, profiles, and guides must remain complete and useful in GitHub's native renderer.
+- [Correct a factual claim](https://github.com/devspecs-com/agentic-development-index/issues/new?template=factual-correction.yml)
+- [Dispute a classification or interpretation](https://github.com/devspecs-com/agentic-development-index/issues/new?template=disputed-claim.yml)
+- [Propose a new record](https://github.com/devspecs-com/agentic-development-index/issues/new?template=new-record.yml)
+- [Author a record directly](CONTRIBUTING.md)
 
-The repository owns:
+The Markdown record is the source of truth. Validation checks structure, evidence labels, links, and category coverage without generating a second copy of profile facts.
 
-- the root and category indexes;
-- readable format, learning, and tool pages;
-- editorial content and evidence history;
-- lightweight validation and contribution tooling.
+## Affiliation
 
-Compact metadata or machine-readable exports may support the repository later. They do not replace Markdown as the source of truth. A future website may consume repository content, but it is not part of the v1 launch contract.
+[DevSpecs](https://www.devspecs.com/) maintains the index. DevSpecs receives no featured placement, score, or relaxed evidence standard. Comparative claims involving DevSpecs require unaffiliated review.
 
-## Status
+## Roadmap And Licensing
 
-The first implementation run is tracked in [`devspecs/tasks/agentic-development-index-v1/A00-index.md`](devspecs/tasks/agentic-development-index-v1/A00-index.md).
-
-## Licensing
-
-Code is MIT licensed. Original editorial content is CC BY 4.0. Structured index data is released under CC0 1.0. See [LICENSES.md](LICENSES.md) for path-level details.
+[Datasets and benchmarks are gated future sections](ROADMAP.md); they will not appear as empty inventory. Code is MIT licensed, original editorial content is CC BY 4.0, and original structured data is CC0. See [LICENSES.md](LICENSES.md).

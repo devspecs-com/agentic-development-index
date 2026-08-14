@@ -86,6 +86,18 @@ function sectionTokens(tokens, headingName) {
   return section;
 }
 
+function validateHeadingHierarchy(tokens, relativePath) {
+  const errors = [];
+  let previousDepth = 0;
+  for (const token of tokens.filter((candidate) => candidate.type === "heading")) {
+    if (previousDepth > 0 && token.depth > previousDepth + 1) {
+      errors.push(`${relativePath}: heading level jumps from H${previousDepth} to H${token.depth}`);
+    }
+    previousDepth = token.depth;
+  }
+  return errors;
+}
+
 function parseFrontMatter(markdown, relativePath) {
   const match = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
   if (!match) {
@@ -234,6 +246,7 @@ async function parseRecord(root, filePath, categoryName) {
   const config = categories[categoryName];
   const tokens = lexer(parsed.body);
   errors.push(...validateMetadata(parsed.data, relativePath, config.value));
+  errors.push(...validateHeadingHierarchy(tokens, relativePath));
 
   const headings = new Set(
     tokens.filter((token) => token.type === "heading" && token.depth === 2).map((token) => normalizeHeading(token.text)),
@@ -260,6 +273,17 @@ async function parseRecord(root, filePath, categoryName) {
   }
 
   errors.push(...(await validateLocalLinks(root, filePath, tokens)));
+  const categoryIndex = path.join(root, categoryName, "README.md");
+  const hasCategoryReturnLink = linksFromTokens(tokens).some((href) => {
+    if (/^(?:https?:|mailto:|#)/i.test(href)) {
+      return false;
+    }
+    const targetText = decodeURIComponent(href.split("#", 1)[0].split("?", 1)[0]);
+    return path.resolve(path.dirname(filePath), targetText) === categoryIndex;
+  });
+  if (!hasCategoryReturnLink) {
+    errors.push(`${relativePath}: record must link back to ${categoryName}/README.md`);
+  }
   return { data: parsed.data, errors, filePath, relativePath, tokens };
 }
 

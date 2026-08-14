@@ -30,6 +30,6 @@ Durable artifact shapes that humans and agents can create, review, version, quer
 
 ## Contribute
 
-Start with the [format template](../templates/format.md) and the [record-authoring guide](../docs/authoring-records.md).
+Start with the [format template](../templates/format.md) and the [record-authoring guide](../docs/authoring-records.md). Found an inaccurate claim? [Open a focused correction](https://github.com/devspecs-com/agentic-development-index/issues/new?template=factual-correction.yml).
 
 [Back to the index](../README.md)
