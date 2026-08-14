@@ -77,7 +77,7 @@ test("broken local links fail at the referring file", async () => {
 
 test("unindexed records fail category coverage", async () => {
   await withMutatedFixture(
-    (root) => replaceInFile(root, "formats/README.md", "- [Task slice](task-slice.md)\n", ""),
+    (root) => replaceInFile(root, "formats/README.md", "- [Task slice](task-slice.md)", ""),
     ({ errors }) => assert.match(errors.join("\n"), /formats\/task-slice\.md: record is not linked from formats\/README\.md/),
   );
 });
