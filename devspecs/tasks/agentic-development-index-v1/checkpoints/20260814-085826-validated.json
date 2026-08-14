@@ -1,0 +1,114 @@
+{
+  "schema_version": 2,
+  "checkpoint_id": "cp_20260814T085826Z_a01_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A01",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A01",
+  "slice_title": "Define charter, taxonomy, methodology, governance, and roadmap",
+  "parent_slice": "A01",
+  "stage": "validated",
+  "decision": "promote",
+  "created_at": "2026-08-14T08:58:26Z",
+  "goal": "Establish the public index contract before implementation",
+  "description": "Defined the charter, taxonomy, evidence methodology, contribution rules, roadmap, licensing, and repository versus website ownership boundary.",
+  "resources": [
+    "../A00-index.md",
+    "../A01-define-charter-taxonomy-methodology-governance-a-plan.md",
+    "../A01-define-charter-taxonomy-methodology-governance-a-result.md",
+    "../task.json"
+  ],
+  "files_edited": [
+    "CHARTER.md",
+    "CONTRIBUTING.md",
+    "LICENSES.md",
+    "METHODOLOGY.md",
+    "README.md",
+    "ROADMAP.md",
+    "docs/taxonomy.md"
+  ],
+  "tests_run": [
+    "git diff --check"
+  ],
+  "actual_context": {
+    "files_edited": [
+      "CHARTER.md",
+      "CONTRIBUTING.md",
+      "LICENSES.md",
+      "METHODOLOGY.md",
+      "README.md",
+      "ROADMAP.md",
+      "docs/taxonomy.md"
+    ],
+    "tests_run": [
+      "git diff --check"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "git_diff": {
+      "command": "git status --short --untracked-files=all; git diff --stat; git diff --name-only; git diff --cached --name-only; git ls-files --others --exclude-standard",
+      "status": "?? CHARTER.md\n?? CONTRIBUTING.md\n?? LICENSES.md\n?? METHODOLOGY.md\n?? README.md\n?? ROADMAP.md\n?? docs/taxonomy.md\n",
+      "changed_files": [
+        "CHARTER.md",
+        "CONTRIBUTING.md",
+        "LICENSES.md",
+        "METHODOLOGY.md",
+        "README.md",
+        "ROADMAP.md",
+        "docs/taxonomy.md"
+      ],
+      "max_bytes": 12000,
+      "truncated": false
+    },
+    "test_commands": [
+      {
+        "command": "git diff --check",
+        "exit_code": 0,
+        "max_bytes": 12000,
+        "truncated": false
+      }
+    ],
+    "git_diff_paths": [
+      "CHARTER.md",
+      "CONTRIBUTING.md",
+      "LICENSES.md",
+      "METHODOLOGY.md",
+      "README.md",
+      "ROADMAP.md",
+      "docs/taxonomy.md"
+    ],
+    "plan_refs": [
+      "../A00-index.md",
+      "../A01-define-charter-taxonomy-methodology-governance-a-plan.md",
+      "../A01-define-charter-taxonomy-methodology-governance-a-result.md",
+      "../task.json"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "taxonomy",
+      "summary": "Formats, Learn, Tools, Datasets, and Benchmarks cover the sample set without adding another top-level category.",
+      "evidence_refs": [
+        "docs/taxonomy.md"
+      ],
+      "applies_to": "A02-A06",
+      "confidence": "high"
+    },
+    {
+      "learning_type": "governance",
+      "summary": "Transparent DevSpecs ownership plus equal evidence rules is more credible than premature institutional neutrality.",
+      "evidence_refs": [
+        "CHARTER.md",
+        "METHODOLOGY.md"
+      ],
+      "applies_to": "A02-A06",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A02",
+    "recommended_decision": "promote"
+  }
+}
