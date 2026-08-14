@@ -1,0 +1,93 @@
+{
+  "schema_version": 2,
+  "checkpoint_id": "cp_20260814T091110Z_a01-1_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A01-1",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A01-1",
+  "slice_title": "Correct v1 to a GitHub-first index",
+  "parent_slice": "A01",
+  "iteration": "A01-1",
+  "stage": "validated",
+  "decision": "promote",
+  "created_at": "2026-08-14T09:11:10Z",
+  "goal": "Correct the v1 contract to a GitHub-first index",
+  "description": "Made GitHub Markdown canonical, removed the standalone-site requirement, and rewrote A02, A05, and A06 around lightweight repository-native delivery.",
+  "resources": [
+    "../A00-index.md",
+    "../A01-1-correct-v1-to-a-github-first-index-plan.md",
+    "../A01-1-correct-v1-to-a-github-first-index-result.md",
+    "../task.json"
+  ],
+  "files_edited": [
+    "README.md",
+    "CHARTER.md",
+    "CONTRIBUTING.md",
+    "LICENSES.md",
+    "ROADMAP.md",
+    "devspecs/tasks/agentic-development-index-v1/A00-index.md",
+    "devspecs/tasks/agentic-development-index-v1/A01-1-correct-v1-to-a-github-first-index-plan.md",
+    "devspecs/tasks/agentic-development-index-v1/A02-define-markdown-record-contracts-and-validation-plan.md",
+    "devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-plan.md",
+    "devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-plan.md",
+    "devspecs/tasks/agentic-development-index-v1/A05-polish-the-github-first-index-experience-plan.md",
+    "devspecs/tasks/agentic-development-index-v1/A06-run-launch-qa-external-profile-review-and-publis-plan.md"
+  ],
+  "tests_run": [
+    "git diff --check -- README.md CHARTER.md CONTRIBUTING.md LICENSES.md ROADMAP.md devspecs/tasks/agentic-development-index-v1"
+  ],
+  "actual_context": {
+    "files_edited": [
+      "README.md",
+      "CHARTER.md",
+      "CONTRIBUTING.md",
+      "LICENSES.md",
+      "ROADMAP.md",
+      "devspecs/tasks/agentic-development-index-v1/A00-index.md",
+      "devspecs/tasks/agentic-development-index-v1/A01-1-correct-v1-to-a-github-first-index-plan.md",
+      "devspecs/tasks/agentic-development-index-v1/A02-define-markdown-record-contracts-and-validation-plan.md",
+      "devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-plan.md",
+      "devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-plan.md",
+      "devspecs/tasks/agentic-development-index-v1/A05-polish-the-github-first-index-experience-plan.md",
+      "devspecs/tasks/agentic-development-index-v1/A06-run-launch-qa-external-profile-review-and-publis-plan.md"
+    ],
+    "tests_run": [
+      "git diff --check -- README.md CHARTER.md CONTRIBUTING.md LICENSES.md ROADMAP.md devspecs/tasks/agentic-development-index-v1"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "test_commands": [
+      {
+        "command": "git diff --check -- README.md CHARTER.md CONTRIBUTING.md LICENSES.md ROADMAP.md devspecs/tasks/agentic-development-index-v1",
+        "exit_code": 0,
+        "output": "warning: in the working copy of 'CHARTER.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'CONTRIBUTING.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'LICENSES.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'ROADMAP.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'devspecs/tasks/agentic-development-index-v1/A00-index.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'devspecs/tasks/agentic-development-index-v1/A01-define-charter-taxonomy-methodology-governance-a-plan.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'devspecs/tasks/agentic-development-index-v1/A01-define-charter-taxonomy-methodology-governance-a-result.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-plan.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'devspecs/tasks/agentic-development-index-v1/A04-publish-an-evidence-backed-tool-landscape-and-co-plan.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'devspecs/tasks/agentic-development-index-v1/A06-run-launch-qa-external-profile-review-and-publis-plan.md', LF will be replaced by CRLF the next time Git touches it\n",
+        "max_bytes": 12000,
+        "truncated": false
+      }
+    ],
+    "plan_refs": [
+      "../A00-index.md",
+      "../A01-1-correct-v1-to-a-github-first-index-plan.md",
+      "../A01-1-correct-v1-to-a-github-first-index-result.md",
+      "../task.json"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "product-boundary",
+      "summary": "The GitHub repository and readable Markdown are the v1 product; automation supports maintenance and a future site is only an optional consumer.",
+      "evidence_refs": [
+        "A00-index.md",
+        "README.md"
+      ],
+      "applies_to": "A02-A06",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A02",
+    "recommended_decision": "promote"
+  }
+}

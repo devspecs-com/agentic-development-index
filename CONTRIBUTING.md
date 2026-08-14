@@ -51,9 +51,9 @@ Reviewers check:
 
 Passing automated validation does not guarantee inclusion.
 
-## Generated Files
+## Source Of Truth
 
-Edit structured records and editorial sources, not generated pages or exports. Validation and generation commands will be documented when the A02 implementation lands.
+Edit the Markdown profile or guide directly. Lightweight metadata may support navigation and checks, but contributors should not have to maintain the same factual copy in a second file. Validation commands and templates will be documented when A02 lands.
 
 ## Conduct
 

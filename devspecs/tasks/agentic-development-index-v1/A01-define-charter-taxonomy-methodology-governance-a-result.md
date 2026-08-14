@@ -31,6 +31,7 @@
 ## Follow-up
 - Keep Datasets and Benchmarks hidden until each section has at least three credible records.
 - Apply the same evidence and correction rules to DevSpecs as to every other indexed tool.
+- `A01-1` supersedes the original deployment decision: GitHub and Markdown are canonical for v1; no generated site is required.
 
 ## References
 - `A00-index.md`

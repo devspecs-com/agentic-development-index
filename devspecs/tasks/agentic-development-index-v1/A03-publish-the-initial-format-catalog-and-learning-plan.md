@@ -1,7 +1,7 @@
 # A03 Plan: Seed Formats And Learning Content
 
 ## Goal
-Publish enough original, sourced content to make the index useful before the tool landscape exists and to establish an editorial standard that cannot be satisfied by thin generated pages.
+Publish enough original, sourced Markdown to make the GitHub index useful before the tool landscape exists and establish an editorial standard that cannot be satisfied by thin link summaries.
 
 ## Initial Format Set
 Cover at least 10 durable artifacts across the taxonomy, including:
@@ -22,11 +22,12 @@ Publish at least five guides:
 - brownfield context recovery without treating old plans as instructions;
 - evidence, decision gates, and iteration slices.
 
-## Page Contract
+## Markdown Page Contract
 Every format page explains what it is, what problem it solves, when to use it, what it contains, how agents consume it, how it changes over time, common failure modes, canonical sources, examples/templates, and related tools.
 
 ## Acceptance Checks
-- [ ] At least 10 format records and 5 learning pages validate and render.
+- [ ] At least 10 format records and 5 learning pages validate and render clearly on GitHub.
+- [ ] The root README and category indexes link to every new page.
 - [ ] Every factual definition cites a primary or canonical source where one exists.
 - [ ] Every page contains original analysis, examples, or operational guidance.
 - [ ] Similar formats explain their boundaries rather than competing for the same keyword with duplicate prose.
@@ -42,7 +43,7 @@ Every format page explains what it is, what problem it solves, when to use it, w
 - Promote to A04: the content is useful without DevSpecs and establishes a repeatable editorial bar.
 - Improve as A03-1: coverage is credible but one format family or guide needs focused expansion.
 - Rework: pages are primarily summaries of external sources rather than practical references.
-- Rollback: programmatic content production creates thin or overlapping SEO pages.
+- Rollback: templated content production creates thin or overlapping pages.
 - Block: canonical licensing or quotation constraints prevent responsible publication.
 
 ## Completion Contract

@@ -8,13 +8,13 @@ Source code, scripts, schemas, tests, and configuration are licensed under the r
 
 ## Editorial Content
 
-Original prose under `content/`, `docs/`, and generated editorial pages is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), except for quoted or externally attributed material.
+Original prose under `formats/`, `learn/`, `tools/`, and `docs/` is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), except for quoted or externally attributed material.
 
 Attribution should name the Agentic Development Index and link to the relevant source page or repository revision.
 
 ## Structured Data
 
-Original structured records and generated JSON/CSV exports under `data/` and `dist/data/` are dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+Original structured metadata or machine-readable exports, if added, are dedicated to the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
 CC0 does not override third-party licenses, trademarks, database rights, privacy obligations, or access conditions attached to cited sources or indexed datasets.
 

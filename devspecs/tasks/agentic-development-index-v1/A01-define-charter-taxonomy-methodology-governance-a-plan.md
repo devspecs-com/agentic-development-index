@@ -10,7 +10,7 @@ Create the public charter, taxonomy, methodology, governance rules, repository c
 - `CONTRIBUTING.md` with focused workflows for new records and factual corrections.
 - `ROADMAP.md` covering Formats, Learn, Tools, Datasets, Benchmarks, and future specs.place integration.
 - `docs/taxonomy.md` defining category boundaries and artifact families.
-- A documented repository layout and decision on how generated pages will publish under `devspecs.com/index/`.
+- A documented GitHub-first repository layout with the root README as the public entry point.
 
 ## Taxonomy To Test
 - Formats: intent, instruction, execution, evidence, and continuity artifacts.
@@ -26,10 +26,10 @@ Create the public charter, taxonomy, methodology, governance rules, repository c
 - [ ] The public labels are `Formats`, `Learn`, `Tools`, `Datasets`, and `Benchmarks`; `Informational` is not exposed as navigation copy.
 - [ ] Empty future sections are roadmap items rather than launch navigation.
 - [ ] Code, content, and structured data licensing are chosen deliberately.
-- [ ] The publishing path and ownership boundary with the DevSpecs website are recorded.
+- [ ] The repository is the canonical v1 product and does not depend on a DevSpecs website route.
 
 ## Out Of Scope
-- Implementing schemas, profile records, or the website.
+- Implementing record validation, profile content, or a companion website.
 - Selecting benchmark winners or publishing comparative scores.
 - Presenting the project as independent from DevSpecs before independent governance exists.
 
@@ -38,7 +38,11 @@ Create the public charter, taxonomy, methodology, governance rules, repository c
 - Improve as A01-1: wording or edge cases remain, but the category model is stable.
 - Rework: formats, tools, and learning material do not form one coherent public category.
 - Rollback: the repository reads as a DevSpecs backlink vehicle rather than an independent reference.
-- Block: licensing or publishing ownership cannot be settled.
+- Block: licensing or repository ownership cannot be settled.
 
 ## Completion Contract
 Record reviewed examples, disputed classifications, final decisions, changed files, checks run, remaining risks, and the recommended A02 starting assumptions in the A01 result or checkpoint.
+
+## Supersession Note
+
+The original publishing-boundary assumption was corrected by `A01-1`. The taxonomy and governance decisions remain valid; the generated-site requirement does not.

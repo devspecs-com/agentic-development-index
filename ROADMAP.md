@@ -7,13 +7,13 @@ The roadmap is gated by evidence and maintenance capacity, not page-count target
 **Target: weeks 1-6**
 
 - Establish the charter, taxonomy, methodology, governance, and licensing.
-- Implement structured records, validation, fixtures, and exports.
+- Define GitHub-native Markdown contracts and lightweight validation.
 - Publish at least 10 format profiles and 5 learning guides.
 - Publish at least 20 evidence-backed tool profiles.
-- Generate and visually verify the public index experience.
+- Polish the root README, category navigation, and contribution experience.
 - Invite represented maintainers to correct factual profiles.
 
-Completion requires a clean-checkout build, source and license audit, accessibility review, transparent affiliation, and public correction workflow.
+Completion requires clean-checkout validation, a source and license audit, readable GitHub rendering, transparent affiliation, and a public correction workflow.
 
 ## B Track: Dataset Registry
 

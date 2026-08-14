@@ -18,7 +18,7 @@ Each profile includes canonical links, maintainer/source attribution, license an
 - Preserve material corrections in repository history and refresh `last_verified` only after review.
 
 ## Acceptance Checks
-- [ ] At least 20 profiles validate and render from structured records.
+- [ ] At least 20 profiles validate and render clearly as GitHub Markdown.
 - [ ] Non-obvious capability claims link to primary documentation, source, or reproducible evidence.
 - [ ] Profiles distinguish session memory, repository context, intent management, and execution lifecycle instead of flattening them into one feature.
 - [ ] DevSpecs affiliation is visible and does not affect ordering or scoring.
@@ -31,11 +31,11 @@ Each profile includes canonical links, maintainer/source attribution, license an
 - Requiring maintainers to link back to the index.
 
 ## Decision Gates
-- Promote to A05: the landscape supports useful filtering and comparison without implying false equivalence.
+- Promote to A05: the landscape supports useful GitHub navigation and comparison without implying false equivalence.
 - Improve as A04-1: the model holds but category coverage or evidence quality is uneven.
 - Rework: profiles are too generic to help a developer choose or understand a tool.
 - Rollback: the section becomes a vendor directory or DevSpecs comparison funnel.
 - Block: too many core claims remain unverifiable.
 
 ## Completion Contract
-Record tools reviewed, evidence gaps, disputed classifications, correction workflow tests, disclosures, validation results, and the filters A05 may safely expose.
+Record tools reviewed, evidence gaps, disputed classifications, correction workflow tests, disclosures, validation results, and the navigation dimensions A05 may safely expose.

@@ -35,16 +35,16 @@ See [METHODOLOGY.md](METHODOLOGY.md), [CHARTER.md](CHARTER.md), and [CONTRIBUTIN
 
 ## Repository Model
 
-Structured YAML records will be the source of truth for profile facts. Markdown will carry interpretation, examples, and instructional content. CI will validate records and generate the website plus reusable JSON and CSV exports.
+This GitHub repository is the canonical v1 product. Its Markdown indexes, profiles, and guides must remain complete and useful in GitHub's native renderer.
 
 The repository owns:
 
-- structured records and schemas;
+- the root and category indexes;
+- readable format, learning, and tool pages;
 - editorial content and evidence history;
-- validation and export tooling;
-- the generated index application.
+- lightweight validation and contribution tooling.
 
-The main DevSpecs website owns the public `/index/` route integration, global navigation, consent, and site-wide analytics. The generated index remains independently buildable and deployable.
+Compact metadata or machine-readable exports may support the repository later. They do not replace Markdown as the source of truth. A future website may consume repository content, but it is not part of the v1 launch contract.
 
 ## Status
 

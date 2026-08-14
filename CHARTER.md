@@ -36,7 +36,7 @@ The project is not:
 
 ## Independence And Affiliation
 
-DevSpecs funds and maintains the project initially. That relationship is disclosed in the repository and generated site. DevSpecs receives no automatic ranking, featured placement, or relaxed evidence requirements.
+DevSpecs funds and maintains the project initially. That relationship is disclosed in the repository. DevSpecs receives no automatic ranking, featured placement, or relaxed evidence requirements.
 
 The project may move to a dedicated organization only after independent contribution and citation are real. Repository location does not substitute for independent governance.
 
@@ -46,7 +46,7 @@ The index may link to DevSpecs where editorially relevant. It must remain useful
 
 ## Publication Boundary
 
-This repository owns index records, editorial content, schemas, evidence, generation, and exports. `devspecs-website` owns integration at `https://www.devspecs.com/index/`, shared site chrome, consent, and analytics.
+This GitHub repository is the canonical v1 publication. It owns the indexes, profiles, guides, evidence history, and contribution process. A future website or data consumer may derive from the repository, but neither is required for launch or authoritative over the Markdown source.
 
 ## Success Signals
 
