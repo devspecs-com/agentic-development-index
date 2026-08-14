@@ -19,6 +19,6 @@ Use a 1280 x 640 image with the repository name, the phrase `Formats, guides, an
 2. Confirm the root README links only to live inventory.
 3. Review changed records for evidence labels, limitations, disclosure, and `last_verified` accuracy.
 4. Open the root and each category README in GitHub's desktop and mobile renderers.
-5. Test the factual correction, disputed claim, and new record forms.
+5. Test the factual correction, disputed claim, profile review, new record, and tool-format relationship forms.
 
 [Back to contributing](../CONTRIBUTING.md)

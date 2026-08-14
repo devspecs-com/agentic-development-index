@@ -1,10 +1,10 @@
 # External Review Status
 
-The initial 20 tool profiles have passed the index's internal source and language review. That `reviewed` record status does not mean the project maintainer or an independent contributor has confirmed the profile.
+The initial 24 tool profiles have passed the index's internal source and language review. That `reviewed` record status does not mean the project maintainer or an independent contributor has confirmed the profile.
 
 ## Current Status
 
-- Represented tool profiles: 20
+- Represented tool profiles: 24
 - Maintainer review requests sent: 0
 - Maintainer confirmations received: 0
 - Independent factual reviews received: 0

@@ -15,7 +15,7 @@ Turn the green release candidate into the public `v0.1.0` repository without wid
 1. Merge PR #1 to `main` without squashing away useful evidence history unless the maintainer deliberately chooses that policy.
 2. Apply the About description and seven topics in `docs/maintainer-checklist.md`.
 3. Upload a 1280 x 640 social preview following the same checklist.
-4. Open all four issue forms from `main`: factual correction, disputed claim, profile review, and new record.
+4. Open all five issue forms from `main`: factual correction, disputed claim, profile review, new record, and tool-format relationship.
 5. Repeat `npm ci`, `npm test`, `npm run validate`, and `npm run qa:links` from a clean checkout of `main`.
 6. Send the review request in `REVIEWS.md` to the first ten independently maintained projects. Record only public, receipt-backed requests and responses.
 7. Update review counts without converting a maintainer confirmation into endorsement or independent reproduction.
@@ -23,7 +23,7 @@ Turn the green release candidate into the public `v0.1.0` repository without wid
 
 ## Acceptance Checks
 
-- [ ] `main` contains the full 36-record catalog and passes all four clean-checkout commands.
+- [ ] `main` contains the full 40-record catalog and passes all four clean-checkout commands.
 - [ ] About copy, topics, social preview, and issue forms are live.
 - [ ] Ten review requests have public receipts, or the release notes preserve the exact lower count.
 - [ ] External confirmations and independent reviews remain separate counts.
