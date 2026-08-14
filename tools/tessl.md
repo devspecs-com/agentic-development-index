@@ -1,51 +1,52 @@
 ---
 id: tessl
 title: Tessl
-summary: A commercial agent-skill and documentation registry with a spec-driven workflow that writes reviewable requirements before implementation.
+summary: A package manager and registry for creating, evaluating, versioning, and distributing skills and context for coding agents.
 category: tool
 status: reviewed
 last_verified: 2026-08-14
 canonical_url: https://tessl.io/
 tags:
-  - specifications
+  - context-registry
   - agent-skills
-  - documentation
+  - evaluation
 ---
 
 # Tessl
 
 ## What It Does
 
-Tessl distributes agent skills and documentation through a registry. Its spec-driven development tile instructs an agent to clarify requirements, write specification Markdown, pause for approval, implement, verify requirements, and update specs with discoveries.
+Tessl provides a package manager, registry, and tooling for versioned agent context. Skills and plugins can package instructions, rules, commands, and MCP servers for repository-local use or distribution through a workspace.
 
 ## Where It Fits
 
-It combines reusable agent instructions with a specification workflow and documentation context. It is not a standalone source/test index or session recorder.
+It is primarily a context creation, evaluation, and distribution layer. It can preserve repository-specific guidance and package it for multiple agents, but it does not define a general task checkpoint or decision-gate lifecycle.
 
 ## Deployment And Storage
 
-Tessl is a commercial service with a CLI and hosted registry. The documented workflow writes specifications into a repository `specs/` folder. The CLI installs the process, while a connected coding agent and model execute it.
+Tessl combines a local CLI with hosted registry and organization features. Repository plugins can stay with the codebase, while registry publication and workspace distribution use the service. Package-management operations do not inherently require an LLM; agents use the installed context during model-driven work.
 
 ## Agent Support
 
-Tiles are designed for compatible coding-agent environments. Current host coverage should be checked in Tessl's setup documentation.
+Tessl documents custom agent setup and packages context in shared formats. Exact execution behavior depends on the selected agent and the installed skill or plugin.
 
 ## Capabilities
 
-- Installable agent skills and curated documentation context.
-- Requirements-first spec workflow with human approval.
-- Requirement-to-test linking in the documented tile.
-- Related: [technical specifications](../formats/technical-specification.md) and [decision gates](../learn/decision-gates-and-iteration-slices.md).
+- Versioned skills and plugins containing instructions, rules, commands, and tools.
+- Registry and workspace distribution for shared agent context.
+- Reviews and scenario-based evaluations for skill quality.
+- Related: [`AGENTS.md`](../formats/agents-md.md) and [context versus memory](../learn/context-vs-memory.md).
 
 ## Limitations
 
-The spec-driven behavior is implemented through agent instructions, so adherence depends on the host and model. Registry availability and licensing differ between Tessl content and third-party tiles.
+Agent results still depend on model behavior and instruction following. Hosted registry and organization features are service-managed, and third-party packages carry quality, security, licensing, and maintenance risks.
 
 ## Sources
 
 | Evidence | Source |
 | --- | --- |
 | Canonical | [Tessl](https://tessl.io/) |
-| Project-reported | [Spec-driven development with Tessl](https://docs.tessl.io/common-workflows/spec-driven-development-with-tessl) |
+| Project-reported | [Skills and plugins overview](https://docs.tessl.io/creating-skills-and-plugins/overview.md) |
+| Project-reported | [Repository plugins](https://docs.tessl.io/distribute/repository-plugins.md) |
 
 [Back to Tools](README.md)

@@ -46,6 +46,7 @@ Current documentation deprecates some older context-provider workflows, so copie
 | Evidence | Source |
 | --- | --- |
 | Canonical | [Continue documentation](https://docs.continue.dev/) |
+| Canonical source | [Continue repository](https://github.com/continuedev/continue) |
 | Project-reported | [Rules](https://docs.continue.dev/customize/rules) |
 | Project-reported | [Configuration reference](https://docs.continue.dev/reference) |
 

@@ -46,6 +46,7 @@ Memory updates rely on the agent following instructions and can become stale or 
 | Evidence | Source |
 | --- | --- |
 | Canonical | [Cline](https://cline.bot/) |
+| Canonical source | [Cline repository](https://github.com/cline/cline) |
 | Project-reported | [Memory Bank](https://docs.cline.bot/best-practices/memory-bank) |
 | Project-reported | [Cline rules](https://docs.cline.bot/customization/cline-rules) |
 

@@ -27,13 +27,13 @@ Profiles are alphabetical. "LLM required" means the documented workflow depends 
 | [OpenSpec](openspec.md) | Repository-native specification workflow | Local CLI; repository Markdown | Yes for agent commands |
 | [Sourcegraph Cody](sourcegraph-cody.md) | Codebase context and coding assistance | Managed or self-hosted Sourcegraph | Yes |
 | [SpecStory](specstory.md) | Cross-agent session history and resume | Local CLI; reads agent session stores | No for capture/export |
-| [Tessl](tessl.md) | Agent skills and spec-driven workflow | CLI/registry; repository specs | Yes for agent workflow |
+| [Tessl](tessl.md) | Agent context package manager and registry | CLI/registry; repository skills and plugins | No for package management |
 
 ## Capability Boundaries
 
 - **Repository context:** Aider, Augment Code, Sourcegraph Cody, and coding agents retrieve or curate code context.
-- **Durable instructions and memory:** Claude Code, Cline, Codex, Continue, Cursor, GitHub Copilot, Kiro, and OpenHands carry reusable guidance or session state.
-- **Intent and execution:** Backlog.md, Beads, BMAD Method, DevSpecs, GitHub Spec Kit, OpenSpec, and Tessl preserve plans, tasks, or lifecycle state.
+- **Durable instructions and memory:** Claude Code, Cline, Codex, Continue, Cursor, GitHub Copilot, Kiro, OpenHands, and Tessl carry or distribute reusable guidance or session state.
+- **Intent and execution:** Backlog.md, Beads, BMAD Method, DevSpecs, GitHub Spec Kit, and OpenSpec preserve plans, tasks, or lifecycle state.
 - **Session provenance:** Entire and SpecStory capture or translate coding-agent sessions.
 
 These groups overlap. They are navigation aids, not scores or claims of equivalence.

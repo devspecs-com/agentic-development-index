@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Validation tooling for the GitHub-first Agentic Development Index.",
   "scripts": {
+    "qa:links": "node scripts/check-external-links.mjs",
     "validate": "node scripts/validate-index.mjs",
     "test": "node --test"
   },

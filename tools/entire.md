@@ -24,7 +24,7 @@ Entire is primarily a session-provenance system. It records what happened around
 
 ## Deployment And Storage
 
-The CLI integrates with local Git repositories and stores checkpoint data through Git-backed mechanisms described in its documentation. Capture does not require a second LLM call, while the coding agent being observed does.
+The MIT-licensed CLI integrates with local Git repositories and stores checkpoint data through Git-backed mechanisms described in its documentation. Capture does not require a second LLM call, while the coding agent being observed does.
 
 ## Agent Support
 
@@ -46,6 +46,7 @@ Session capture can preserve more detail than a reviewer needs and does not make
 | Evidence | Source |
 | --- | --- |
 | Canonical | [Entire](https://entire.io/) |
+| Canonical source | [Entire CLI repository](https://github.com/entireio/cli) |
 | Project-reported | [Entire documentation](https://docs.entire.io/) |
 
 [Back to Tools](README.md)
