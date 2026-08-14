@@ -24,9 +24,25 @@ Describe the situations where this artifact earns its maintenance cost.
 
 Explain how the artifact is created, reviewed, changed, superseded, and archived.
 
+## Common Variants
+
+Optional: distinguish established variants and the situations they optimize for. Remove this section when the format has no meaningful variants.
+
 ## Agent Use
 
 Explain how an agent should read or update it without treating stale intent as an instruction.
+
+## Related Tools
+
+Optional: link only to canonical profiles under `tools/` and state the typed relationship, such as creates, validates, renders, indexes, links, publishes, or manages lifecycle. Remove this section when no tool relationship has been verified.
+
+| Tool | Relationship to this format |
+| --- | --- |
+| [Example tool](../tools/example-tool.md) | Creates and validates repository-local records. |
+
+## Related Formats
+
+Optional: explain when an adjacent format should be used instead. Remove this section when it does not improve the boundary.
 
 ## Pitfalls
 

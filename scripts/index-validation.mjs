@@ -98,6 +98,33 @@ function validateHeadingHierarchy(tokens, relativePath) {
   return errors;
 }
 
+function validateRelatedToolLinks(root, filePath, tokens, relativePath) {
+  const section = sectionTokens(tokens, "Related Tools");
+  if (section.length === 0) {
+    return [];
+  }
+
+  const errors = [];
+  const links = linksFromTokens(section);
+  if (links.length === 0) {
+    return [`${relativePath}: Related Tools must link to at least one canonical profile under tools/`];
+  }
+
+  for (const href of links) {
+    if (/^(?:https?:|mailto:|#)/i.test(href)) {
+      errors.push(`${relativePath}: Related Tools link '${href}' must point to a canonical local profile under tools/`);
+      continue;
+    }
+    const targetText = decodeURIComponent(href.split("#", 1)[0].split("?", 1)[0]);
+    const target = path.resolve(path.dirname(filePath), targetText);
+    const targetRelative = path.relative(root, target).replaceAll(path.sep, "/");
+    if (!/^tools\/[^/]+\.md$/i.test(targetRelative) || targetRelative === "tools/README.md") {
+      errors.push(`${relativePath}: Related Tools link '${href}' must point to a canonical local profile under tools/`);
+    }
+  }
+  return errors;
+}
+
 function parseFrontMatter(markdown, relativePath) {
   const match = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
   if (!match) {
@@ -257,6 +284,10 @@ async function parseRecord(root, filePath, categoryName) {
     }
   }
 
+  if (categoryName === "formats") {
+    errors.push(...validateRelatedToolLinks(root, filePath, tokens, relativePath));
+  }
+
   const h1 = tokens.find((token) => token.type === "heading" && token.depth === 1);
   if (!h1 || normalizeHeading(h1.text) !== normalizeHeading(parsed.data.title)) {
     errors.push(`${relativePath}: H1 must match front matter title '${parsed.data.title}'`);
@@ -334,6 +365,9 @@ export async function validateIndex(root) {
       const record = await parseRecord(absoluteRoot, filePath, categoryName);
       records.push(record);
       errors.push(...record.errors);
+      if (!rootLinks.has(record.relativePath)) {
+        errors.push(`${record.relativePath}: record is not linked from README.md`);
+      }
       if (!indexedTargets.has(filePath)) {
         errors.push(`${record.relativePath}: record is not linked from ${categoryName}/README.md`);
       }

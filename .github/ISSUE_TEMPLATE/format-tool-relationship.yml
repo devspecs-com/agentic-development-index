@@ -1,0 +1,61 @@
+name: Tool-format relationship
+description: Propose how one indexed tool supports one durable artifact format
+title: "Relate: "
+body:
+  - type: input
+    id: format
+    attributes:
+      label: Format record
+      description: Link the existing format profile.
+    validations:
+      required: true
+  - type: input
+    id: tool
+    attributes:
+      label: Tool record
+      description: Link the existing canonical tool profile. Propose a new tool record first if it is not indexed.
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship
+      options:
+        - Creates
+        - Validates
+        - Renders
+        - Indexes
+        - Links
+        - Publishes
+        - Manages lifecycle
+        - Other evidenced relationship
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary evidence
+      description: Link canonical documentation or source that demonstrates this specific relationship.
+    validations:
+      required: true
+  - type: textarea
+    id: wording
+    attributes:
+      label: Proposed relationship wording
+      description: Write one neutral sentence for the format page. Do not paste a vendor description.
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Important boundary
+      description: State what this evidence does not establish.
+    validations:
+      required: true
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: Relationship disclosure
+      description: State whether you maintain, work for, invest in, or are sponsored by the tool. Write "none" when applicable.
+    validations:
+      required: true

@@ -4,7 +4,7 @@ Durable artifact shapes that humans and agents can create, review, version, quer
 
 ## Intent
 
-- [Architecture decision record](architecture-decision-record.md) - records one consequential architecture decision and its rationale.
+- [Architecture decision record](architecture-decision-record.md) - compares common ADR variants and the tools that create, search, publish, or index them.
 - [Request for comments](request-for-comments.md) - circulates a consequential proposal for review before adoption.
 - [Product requirements document](product-requirements-document.md) - defines the product problem, outcome, scope, and acceptance signals.
 - [Technical specification](technical-specification.md) - turns approved intent into inspectable system behavior and constraints.

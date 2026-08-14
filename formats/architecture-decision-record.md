@@ -26,9 +26,37 @@ Use an ADR when future maintainers will reasonably ask why one architecture opti
 
 Create the record while the decision is reviewable. Mark it accepted when adopted. If the decision changes, preserve the old record and link a new ADR that supersedes it; do not silently rewrite history.
 
+## Common Variants
+
+| Variant | Shape | Useful when |
+| --- | --- | --- |
+| Nygard ADR | Title, status, context, decision, and consequences. | A team wants the smallest broadly recognizable decision narrative. |
+| MADR | Adds explicit options, pros and cons, outcome, confirmation, and optional metadata. | Reviewers need visible tradeoff analysis before accepting the decision. |
+| Y-Statement | Compresses context, concern, choice, intended quality, and accepted downside into one sentence. | A full record would be disproportionate but the rationale still needs to survive. |
+
+These are alternative representations of the same artifact family, not maturity levels. Teams can use more than one shape if the choice is explicit and readers can still recognize status and supersession.
+
 ## Agent Use
 
 An agent should use current ADRs as constraints and superseded ADRs as historical explanation. It should cite the relevant ADR when proposing a conflicting design and request a new decision rather than editing accepted rationale to match new code.
+
+## Related Tools
+
+The relationship describes the evidenced ADR job, not an overall product ranking. Each link opens the canonical tool profile maintained by this index.
+
+| Tool | Relationship to ADRs |
+| --- | --- |
+| [ADR Tools](../tools/adr-tools.md) | Creates, numbers, links, and supersedes Nygard-style Markdown ADRs from a shell CLI. |
+| [ADRs](../tools/adrs.md) | Creates, searches, checks, converts, and exposes Nygard or MADR records through a cross-platform CLI and optional MCP server. |
+| [Backstage ADR Plugin](../tools/backstage-adr-plugin.md) | Retrieves, renders, and searches repository ADRs through a Backstage developer portal. |
+| [Log4brains](../tools/log4brains.md) | Creates repository ADRs and publishes a searchable static decision log. |
+| [DevSpecs](../tools/devspecs.md) | Indexes ADRs beside plans, source, tests, Git activity, and bounded task records. |
+
+## Related Formats
+
+- Use an [RFC](request-for-comments.md) when the proposal is still seeking review across a wider design or organizational surface.
+- Use a [technical specification](technical-specification.md) when approved intent needs inspectable behavior, interfaces, and constraints.
+- Use a [checkpoint](checkpoint.md) when the important artifact is implementation evidence and the decision that follows an attempt.
 
 ## Pitfalls
 
@@ -39,13 +67,16 @@ An agent should use current ADRs as constraints and superseded ADRs as historica
 
 ## Examples
 
-The [MADR project](https://adr.github.io/madr/) provides concise Markdown templates and examples. The ADR GitHub organization also maintains a broader [collection of templates](https://adr.github.io/adr-templates/).
+Michael Nygard's original article includes the compact record structure and supersession model. The [MADR project](https://adr.github.io/madr/) provides full and minimal Markdown templates. The ADR GitHub organization compares [Nygard, MADR, Y-Statement, and other templates](https://adr.github.io/adr-templates/) and maintains a separate, inclusive [decision-capturing tool catalog](https://adr.github.io/adr-tooling/).
 
 ## Sources
 
 | Evidence | Source |
 | --- | --- |
+| Canonical origin | [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) |
 | Canonical overview | [Architectural Decision Records](https://adr.github.io/) |
-| Primary template | [Markdown Architectural Decision Records](https://adr.github.io/madr/) |
+| Canonical variants | [ADR Templates](https://adr.github.io/adr-templates/) |
+| Canonical MADR project | [Markdown Architectural Decision Records](https://adr.github.io/madr/) |
+| Canonical ecosystem catalog | [Decision Capturing Tools](https://adr.github.io/adr-tooling/) |
 
 [Back to Formats](README.md)

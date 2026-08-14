@@ -82,6 +82,26 @@ test("unindexed records fail category coverage", async () => {
   );
 });
 
+test("records must remain discoverable from the root catalog", async () => {
+  await withMutatedFixture(
+    (root) => replaceInFile(root, "README.md", "- [Task slice](formats/task-slice.md)\n", ""),
+    ({ errors }) => assert.match(errors.join("\n"), /formats\/task-slice\.md: record is not linked from README\.md/),
+  );
+});
+
+test("format tooling relationships use canonical local tool profiles", async () => {
+  await withMutatedFixture(
+    (root) =>
+      replaceInFile(
+        root,
+        "formats/architecture-decision-record.md",
+        "## Sources",
+        "## Related Tools\n\n- [Vendor page](https://example.com/tool) creates ADRs.\n\n## Sources",
+      ),
+    ({ errors }) => assert.match(errors.join("\n"), /Related Tools link .* must point to a canonical local profile under tools\//),
+  );
+});
+
 test("unsupported front matter fields fail instead of becoming metadata bags", async () => {
   await withMutatedFixture(
     (root) => replaceInFile(root, "tools/local-intent-index.md", "id: local-intent-index", "id: local-intent-index\nvendor_score: 99"),
@@ -92,14 +112,20 @@ test("unsupported front matter fields fail instead of becoming metadata bags", a
 test("the production repository validates the initial format, learning, and tool catalog", async () => {
   const { errors, records } = await validateIndex(repositoryRoot);
   assert.deepEqual(errors, []);
-  assert.equal(records.length, 36);
+  assert.equal(records.length, 40);
   assert.equal(records.filter(({ data }) => data.category === "format").length, 11);
   assert.equal(records.filter(({ data }) => data.category === "learn").length, 5);
-  assert.equal(records.filter(({ data }) => data.category === "tool").length, 20);
+  assert.equal(records.filter(({ data }) => data.category === "tool").length, 24);
 });
 
 test("contribution issue forms remain valid YAML", async () => {
-  for (const filename of ["factual-correction.yml", "disputed-claim.yml", "new-record.yml", "profile-review.yml"]) {
+  for (const filename of [
+    "factual-correction.yml",
+    "disputed-claim.yml",
+    "format-tool-relationship.yml",
+    "new-record.yml",
+    "profile-review.yml",
+  ]) {
     const source = await readFile(path.join(repositoryRoot, ".github", "ISSUE_TEMPLATE", filename), "utf8");
     const form = parse(source);
     assert.equal(typeof form.name, "string");
@@ -114,6 +140,8 @@ test("the root README exposes the live catalog and validation status", async () 
   assert.match(source, /formats\/README\.md/);
   assert.match(source, /learn\/README\.md/);
   assert.match(source, /tools\/README\.md/);
+  assert.match(source, /formats\/architecture-decision-record\.md/);
+  assert.match(source, /tools\/adr-tools\.md/);
   assert.match(source, /actions\/workflows\/validate\.yml\/badge\.svg/);
   assert.doesNotMatch(source, /devspecs\/tasks/);
 });

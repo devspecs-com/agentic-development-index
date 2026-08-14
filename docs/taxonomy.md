@@ -55,6 +55,12 @@ Tools are classified by evidenced capabilities rather than vendor category alone
 
 A coding agent belongs only when its durable context or lifecycle capability is itself relevant. The index is not a general coding-agent directory.
 
+### Tool-Format Relationships
+
+Format pages may curate tools through evidenced relationship verbs: creates, validates, renders, indexes, links, publishes, or manages lifecycle. The tool remains one canonical record under `tools/`; the format page is a discovery view rather than a duplicate profile.
+
+A framework that defines a workflow and emits several artifact types is classified as a tool. Its emitted ADR, RFC, PRD, specification, or task shape remains a format. Learning pages explain how to choose or combine them.
+
 ## Datasets
 
 Datasets are reusable collections of relevant artifacts or observations. Records require provenance, license, version, access conditions, permitted use, and a removal process.

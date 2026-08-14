@@ -34,6 +34,12 @@ Use the [disputed claim form](https://github.com/devspecs-com/agentic-developmen
 
 Explain how the item fits the charter, copy the relevant Markdown template, cite primary sources for non-obvious claims, and avoid comparison language that is not supported by evidence. The [new record form](https://github.com/devspecs-com/agentic-development-index/issues/new?template=new-record.yml) is available when a contributor is not ready to open a pull request.
 
+### Add A Tool To A Format
+
+First make sure the tool has one canonical profile under `tools/`. Then add a short relationship row to the format page using a concrete verb: creates, validates, renders, indexes, links, publishes, or manages lifecycle. Link to the local profile rather than the vendor site and keep capability evidence in that profile.
+
+Use the [tool-format relationship form](https://github.com/devspecs-com/agentic-development-index/issues/new?template=format-tool-relationship.yml) when proposing the relationship without editing the records directly. Maintainers and vendors may submit their own tools, but must provide primary evidence and disclose the relationship. A format page is a curated view, not a second tool directory or promotional placement.
+
 ### Improve Learning Content
 
 Add original explanation, examples, operational guidance, or analysis. Pages that only paraphrase another source or target a keyword variation will not be accepted.
@@ -62,6 +68,8 @@ The DevSpecs maintainers also maintain this index. DevSpecs records follow the s
 ## Source Of Truth
 
 Edit the Markdown profile or guide directly. Lightweight metadata supports navigation and checks, but contributors do not maintain the same factual copy in a second file. See [docs/authoring-records.md](docs/authoring-records.md) for templates and validation.
+
+The root README links every published record. Category indexes add summaries and comparison dimensions. Tool facts stay in canonical tool profiles even when several format pages link to them.
 
 Maintainers preparing a release should also use the [GitHub repository checklist](docs/maintainer-checklist.md).
 
