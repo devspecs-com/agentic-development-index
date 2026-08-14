@@ -43,4 +43,4 @@ The fixture does not establish a local export or offline operating mode.
 | --- | --- |
 | Canonical | [Fixture service documentation](https://example.com/hosted-session-memory) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

@@ -48,4 +48,4 @@ The DevSpecs task flow shows explicit slices, one-target prompts, checkpoints, a
 | Canonical workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 | Related plan model | [OpenAI Cookbook: Codex ExecPlans](https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

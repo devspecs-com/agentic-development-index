@@ -48,4 +48,4 @@ GitHub's Spec Kit demonstrates a specification-first workflow that separates spe
 | Canonical workflow example | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
 | Primary standards process | [RFC 2026](https://datatracker.ietf.org/doc/rfc2026/) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

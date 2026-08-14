@@ -89,6 +89,19 @@ test("records must remain discoverable from the root catalog", async () => {
   );
 });
 
+test("root catalog entries require useful inline summaries", async () => {
+  await withMutatedFixture(
+    (root) =>
+      replaceInFile(
+        root,
+        "README.md",
+        "- [Task slice](formats/task-slice.md) - Bounds one independently reviewable implementation attempt.",
+        "- [Task slice](formats/task-slice.md)",
+      ),
+    ({ errors }) => assert.match(errors.join("\n"), /formats\/task-slice\.md: root README entry lacks a substantive summary/),
+  );
+});
+
 test("format tooling relationships use canonical local tool profiles", async () => {
   await withMutatedFixture(
     (root) =>
@@ -137,9 +150,9 @@ test("contribution issue forms remain valid YAML", async () => {
 
 test("the root README exposes the live catalog and validation status", async () => {
   const source = await readFile(path.join(repositoryRoot, "README.md"), "utf8");
-  assert.match(source, /formats\/README\.md/);
-  assert.match(source, /learn\/README\.md/);
-  assert.match(source, /tools\/README\.md/);
+  assert.match(source, /## Formats/);
+  assert.match(source, /## Learning Guides/);
+  assert.match(source, /## Tools/);
   assert.match(source, /formats\/architecture-decision-record\.md/);
   assert.match(source, /tools\/adr-tools\.md/);
   assert.match(source, /actions\/workflows\/validate\.yml\/badge\.svg/);

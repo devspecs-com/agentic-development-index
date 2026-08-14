@@ -48,4 +48,4 @@ OpenAI's ExecPlans guidance describes self-contained, living plans for long-runn
 | Canonical implementation guidance | [OpenAI Cookbook: Codex ExecPlans](https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md) |
 | Primary workflow example | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

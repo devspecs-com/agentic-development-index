@@ -49,4 +49,4 @@ Persisted conversations can contain secrets and large event histories; the docum
 | Project-reported | [Conversation persistence](https://docs.openhands.dev/sdk/guides/convo-persistence) |
 | Canonical source | [OpenHands repository](https://github.com/OpenHands/OpenHands) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

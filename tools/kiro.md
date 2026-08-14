@@ -49,4 +49,4 @@ Behavior and storage differ across IDE, CLI, and web. Kiro's docs identify some 
 | Project-reported | [Steering](https://kiro.dev/docs/steering/) |
 | Project-reported | [Web specs](https://kiro.dev/docs/web/specs/) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

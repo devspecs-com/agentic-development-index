@@ -45,4 +45,4 @@ Selective memory requires judgment and can omit a detail that later matters. Ful
 | Primary continuity implementation | [Entire documentation](https://docs.entire.io/) |
 | Primary task-context implementation | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
-[Back to Learn](README.md)
+[Back to the index](../README.md#learning-guides)

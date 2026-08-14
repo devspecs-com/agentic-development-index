@@ -304,18 +304,44 @@ async function parseRecord(root, filePath, categoryName) {
   }
 
   errors.push(...(await validateLocalLinks(root, filePath, tokens)));
-  const categoryIndex = path.join(root, categoryName, "README.md");
-  const hasCategoryReturnLink = linksFromTokens(tokens).some((href) => {
+  const rootIndex = path.join(root, "README.md");
+  const hasRootReturnLink = linksFromTokens(tokens).some((href) => {
     if (/^(?:https?:|mailto:|#)/i.test(href)) {
       return false;
     }
     const targetText = decodeURIComponent(href.split("#", 1)[0].split("?", 1)[0]);
-    return path.resolve(path.dirname(filePath), targetText) === categoryIndex;
+    return path.resolve(path.dirname(filePath), targetText) === rootIndex;
   });
-  if (!hasCategoryReturnLink) {
-    errors.push(`${relativePath}: record must link back to ${categoryName}/README.md`);
+  if (!hasRootReturnLink) {
+    errors.push(`${relativePath}: record must link back to README.md`);
   }
   return { data: parsed.data, errors, filePath, relativePath, tokens };
+}
+
+function rootEntryHasSummary(markdown, relativePath) {
+  const marker = `](${relativePath})`;
+
+  return markdown.split(/\r?\n/).some((line) => {
+    const markerIndex = line.indexOf(marker);
+    if (markerIndex === -1) {
+      return false;
+    }
+
+    if (line.trimStart().startsWith("|")) {
+      const cells = line
+        .split("|")
+        .map((cell) => cell.trim())
+        .filter(Boolean);
+      const linkedCellIndex = cells.findIndex((cell) => cell.includes(marker));
+      return linkedCellIndex >= 0 && cells.slice(linkedCellIndex + 1).some((cell) => cell.length >= 8);
+    }
+
+    const remainder = line
+      .slice(markerIndex + marker.length)
+      .replace(/^[\s*_`]+/, "")
+      .trim();
+    return /^[-:]\s+\S/.test(remainder) && remainder.replace(/^[-:]\s+/, "").length >= 12;
+  });
 }
 
 export async function validateIndex(root) {
@@ -328,7 +354,8 @@ export async function validateIndex(root) {
     return { errors: ["README.md: root index is missing"], records: [] };
   }
 
-  const rootTokens = lexer(await readFile(rootReadme, "utf8"));
+  const rootMarkdown = await readFile(rootReadme, "utf8");
+  const rootTokens = lexer(rootMarkdown);
   errors.push(...(await validateLocalLinks(absoluteRoot, rootReadme, rootTokens)));
   const rootLinks = new Set(
     linksFromTokens(rootTokens).map((href) => href.replaceAll("\\", "/").replace(/^\.\//, "")),
@@ -341,10 +368,6 @@ export async function validateIndex(root) {
       errors.push(`${categoryName}/README.md: category index is missing`);
       continue;
     }
-    if (!rootLinks.has(`${categoryName}/README.md`) && !rootLinks.has(`${categoryName}/`)) {
-      errors.push(`README.md: category '${categoryName}' is not linked from the root index`);
-    }
-
     const indexMarkdown = await readFile(indexPath, "utf8");
     const indexTokens = lexer(indexMarkdown);
     errors.push(...(await validateLocalLinks(absoluteRoot, indexPath, indexTokens)));
@@ -367,6 +390,8 @@ export async function validateIndex(root) {
       errors.push(...record.errors);
       if (!rootLinks.has(record.relativePath)) {
         errors.push(`${record.relativePath}: record is not linked from README.md`);
+      } else if (!rootEntryHasSummary(rootMarkdown, record.relativePath)) {
+        errors.push(`${record.relativePath}: root README entry lacks a substantive summary`);
       }
       if (!indexedTargets.has(filePath)) {
         errors.push(`${record.relativePath}: record is not linked from ${categoryName}/README.md`);

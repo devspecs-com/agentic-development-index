@@ -48,4 +48,4 @@ Cross-agent translation cannot guarantee equivalent hidden instructions or tool 
 | Canonical | [SpecStory](https://specstory.com/) |
 | Project-reported | [Terminal coding-agent usage](https://docs.specstory.com/integrations/terminal-coding-agents/usage) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

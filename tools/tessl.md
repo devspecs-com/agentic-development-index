@@ -49,4 +49,4 @@ Agent results still depend on model behavior and instruction following. Hosted r
 | Project-reported | [Skills and plugins overview](https://docs.tessl.io/creating-skills-and-plugins/overview.md) |
 | Project-reported | [Repository plugins](https://docs.tessl.io/distribute/repository-plugins.md) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

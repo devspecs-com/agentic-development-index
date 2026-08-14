@@ -43,4 +43,4 @@ DevSpecs documents a [bounded task flow](https://www.devspecs.com/docs/task-flow
 | --- | --- |
 | Canonical | [DevSpecs task flow](https://www.devspecs.com/docs/task-flow) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

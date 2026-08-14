@@ -48,4 +48,4 @@ Auto memory is agent-specific and may not be team-versioned. Instructions are pr
 | Canonical | [Claude Code documentation](https://code.claude.com/docs/) |
 | Project-reported | [How Claude remembers your project](https://code.claude.com/docs/en/memory) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

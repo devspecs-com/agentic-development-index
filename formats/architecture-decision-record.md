@@ -79,4 +79,4 @@ Michael Nygard's original article includes the compact record structure and supe
 | Canonical MADR project | [Markdown Architectural Decision Records](https://adr.github.io/madr/) |
 | Canonical ecosystem catalog | [Decision Capturing Tools](https://adr.github.io/adr-tooling/) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

@@ -49,4 +49,4 @@ The project documents one-repository operation; multi-repository work requires m
 | Project-reported | [Repository map](https://aider.chat/docs/repomap.html) |
 | Project-reported | [Git integration](https://aider.chat/docs/git.html) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

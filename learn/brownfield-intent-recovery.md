@@ -45,4 +45,4 @@ Conservative recovery may stop where an experienced maintainer would continue. A
 | Primary architecture map | [arc42 documentation](https://docs.arc42.org/home/) |
 | Primary intent recovery workflow | [DevSpecs brownfield intent recovery](https://docs.devspecs.com/brownfield/recover-intent) |
 
-[Back to Learn](README.md)
+[Back to the index](../README.md#learning-guides)

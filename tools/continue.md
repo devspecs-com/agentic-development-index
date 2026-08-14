@@ -50,4 +50,4 @@ Current documentation deprecates some older context-provider workflows, so copie
 | Project-reported | [Rules](https://docs.continue.dev/customize/rules) |
 | Project-reported | [Configuration reference](https://docs.continue.dev/reference) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

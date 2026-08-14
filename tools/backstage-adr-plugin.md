@@ -49,4 +49,4 @@ Adoption requires a configured Backstage application, backend plugin, software-c
 | --- | --- |
 | Canonical source and setup documentation | [Backstage ADR Plugin](https://github.com/backstage/community-plugins/tree/main/workspaces/adr/plugins/adr) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

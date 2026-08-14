@@ -48,4 +48,4 @@ The workflow is specialized to ADRs and a shell environment. It does not retriev
 | --- | --- |
 | Canonical source and documentation | [ADR Tools repository](https://github.com/npryce/adr-tools) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

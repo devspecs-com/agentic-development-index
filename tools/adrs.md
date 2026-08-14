@@ -49,4 +49,4 @@ Its evidence model is the ADR repository itself. It does not establish whether a
 | --- | --- |
 | Canonical source and documentation | [ADRs repository](https://github.com/joshrotenberg/adrs) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

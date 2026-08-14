@@ -43,4 +43,4 @@ This is a validation fixture, not a production profile or recommendation.
 | --- | --- |
 | Canonical | [Fixture tool documentation](https://example.com/local-intent-index) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

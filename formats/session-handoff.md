@@ -48,4 +48,4 @@ Entire captures coding-agent sessions and checkpoints alongside Git history. Dev
 | Canonical capture example | [Entire documentation](https://docs.entire.io/) |
 | Related workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

@@ -49,4 +49,4 @@ Instruction files set expectations but do not establish that a task is approved 
 | Project-reported | [Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md) |
 | Canonical source | [Codex CLI repository](https://github.com/openai/codex) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

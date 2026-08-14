@@ -48,4 +48,4 @@ OpenAI Evals separates evaluation definitions, data-source schemas, testing crit
 | Canonical evaluation guide | [OpenAI Evals](https://platform.openai.com/docs/guides/evals) |
 | Primary API model | [OpenAI Evals API](https://platform.openai.com/docs/api-reference/evals) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

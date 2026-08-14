@@ -45,4 +45,4 @@ Capturing every tool call creates noise. Capturing nothing forces reconstruction
 | Primary decision format | [Architectural Decision Records](https://adr.github.io/) |
 | Primary task lifecycle | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
-[Back to Learn](README.md)
+[Back to the index](../README.md#learning-guides)

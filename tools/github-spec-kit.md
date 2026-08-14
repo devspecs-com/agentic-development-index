@@ -49,4 +49,4 @@ The workflow can produce substantial artifact volume. Official documentation sta
 | Project-reported | [Agentic SDD reference](https://github.github.com/spec-kit/reference/agentic-sdd.html) |
 | Project-reported | [Workflow reference](https://github.github.com/spec-kit/reference/workflows.html) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

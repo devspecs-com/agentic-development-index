@@ -50,4 +50,4 @@ Memory updates rely on the agent following instructions and can become stale or 
 | Project-reported | [Memory Bank](https://docs.cline.bot/best-practices/memory-bank) |
 | Project-reported | [Cline rules](https://docs.cline.bot/customization/cline-rules) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

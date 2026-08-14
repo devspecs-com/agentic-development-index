@@ -35,4 +35,4 @@ Structured handoffs cost a small amount of time and should be reserved for work 
 | --- | --- |
 | Canonical | [Fixture handoff reference](https://example.com/asynchronous-handoffs) |
 
-[Back to Learn](README.md)
+[Back to the index](../README.md#learning-guides)

@@ -43,4 +43,4 @@ The ADR community maintains [templates and examples](https://adr.github.io/).
 | --- | --- |
 | Canonical | [Architectural Decision Records](https://adr.github.io/) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

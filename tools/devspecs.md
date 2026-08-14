@@ -51,4 +51,4 @@ DevSpecs maintains this index. This affiliation does not change profile ordering
 | Canonical source | [DevSpecs CLI repository](https://github.com/devspecs-com/devspecs-cli) |
 | Project-reported | [Task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

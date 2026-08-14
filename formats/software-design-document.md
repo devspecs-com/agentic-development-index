@@ -48,4 +48,4 @@ The arc42 template organizes architecture documentation into twelve adaptable se
 | Canonical reference | [arc42 documentation](https://docs.arc42.org/home/) |
 | Primary template | [arc42 overview](https://arc42.org/overview) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

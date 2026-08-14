@@ -48,4 +48,4 @@ DevSpecs checkpoints record stage, decision, files, tests, learnings, and next t
 | Canonical workflow | [DevSpecs task checkpoints](https://docs.devspecs.com/greenfield/task-flow) |
 | Related implementation | [Entire documentation](https://docs.entire.io/) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

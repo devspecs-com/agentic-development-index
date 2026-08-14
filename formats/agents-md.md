@@ -47,4 +47,4 @@ The format site provides a minimal example and guidance for monorepos, including
 | --- | --- |
 | Canonical specification | [`AGENTS.md` open format](https://agents.md/) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

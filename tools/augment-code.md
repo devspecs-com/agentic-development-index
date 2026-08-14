@@ -48,4 +48,4 @@ Most quality and efficiency results are project-reported and are not reproduced 
 | Canonical | [Augment Code](https://www.augmentcode.com/) |
 | Project-reported | [Context Services overview](https://docs.augmentcode.com/context-services/overview) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

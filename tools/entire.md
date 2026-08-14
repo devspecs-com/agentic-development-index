@@ -49,4 +49,4 @@ Session capture can preserve more detail than a reviewer needs and does not make
 | Canonical source | [Entire CLI repository](https://github.com/entireio/cli) |
 | Project-reported | [Entire documentation](https://docs.entire.io/) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

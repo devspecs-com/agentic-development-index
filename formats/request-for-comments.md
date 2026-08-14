@@ -48,4 +48,4 @@ The IETF publishes the [RFC series](https://www.rfc-editor.org/) and its standar
 | Canonical process | [IETF RFCs](https://www.ietf.org/process/rfcs/) |
 | Primary process definition | [RFC 2026: The Internet Standards Process](https://datatracker.ietf.org/doc/rfc2026/) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

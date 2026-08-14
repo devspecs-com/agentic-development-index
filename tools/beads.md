@@ -48,4 +48,4 @@ The Dolt-backed synchronization model has operational concepts beyond ordinary G
 | Canonical | [Beads repository](https://github.com/gastownhall/beads) |
 | Project-reported | [Beads agent instructions](https://github.com/gastownhall/beads/blob/main/AGENTS.md) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

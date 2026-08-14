@@ -49,4 +49,4 @@ The workflow is centered on ADR authoring and publication. It does not connect d
 | --- | --- |
 | Canonical source and documentation | [Log4brains repository](https://github.com/thomvaill/log4brains) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

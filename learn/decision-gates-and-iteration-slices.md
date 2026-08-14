@@ -46,4 +46,4 @@ Explicit gates can become ceremony if every trivial edit requires a lifecycle re
 | Primary workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 | Related living-plan model | [OpenAI Cookbook: Codex ExecPlans](https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md) |
 
-[Back to Learn](README.md)
+[Back to the index](../README.md#learning-guides)

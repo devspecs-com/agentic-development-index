@@ -47,4 +47,4 @@ Atlassian's product requirements template demonstrates a concise structure aroun
 | --- | --- |
 | Canonical template | [Atlassian product requirements template](https://www.atlassian.com/software/confluence/templates/product-requirements) |
 
-[Back to Formats](README.md)
+[Back to the index](../README.md#formats)

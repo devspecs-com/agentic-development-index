@@ -35,4 +35,4 @@ More retained state can improve continuity while increasing noise and stale-inst
 | --- | --- |
 | Canonical | [Fixture concept reference](https://example.com/context-and-memory) |
 
-[Back to Learn](README.md)
+[Back to the index](../README.md#learning-guides)

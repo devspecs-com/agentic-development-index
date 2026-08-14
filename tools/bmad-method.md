@@ -48,4 +48,4 @@ The method introduces many roles and artifacts, so small work needs its quick-fl
 | Canonical | [BMAD Method repository](https://github.com/bmad-code-org/BMAD-METHOD) |
 | Project-reported | [Getting started](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/tutorials/getting-started.md) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

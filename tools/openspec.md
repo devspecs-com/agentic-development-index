@@ -48,4 +48,4 @@ The default flow can mark implementation tasks complete without independently ca
 | Canonical | [OpenSpec repository](https://github.com/Fission-AI/OpenSpec) |
 | Project-reported | [OpenSpec documentation](https://openspec.dev/) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

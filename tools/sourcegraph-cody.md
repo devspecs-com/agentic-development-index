@@ -49,4 +49,4 @@ Some context and filtering features require Enterprise versions or feature flags
 | Project-reported | [Cody context](https://sourcegraph.com/docs/cody/core-concepts/context) |
 | Project-reported | [Code Graph](https://sourcegraph.com/docs/cody/core-concepts/code-graph) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

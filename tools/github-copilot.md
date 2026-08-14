@@ -49,4 +49,4 @@ Instruction support varies across Copilot surfaces, and GitHub notes that models
 | Project-reported | [Customize Copilot for a project](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview) |
 | Project-reported | [Custom instructions](https://docs.github.com/en/copilot/concepts/prompting/response-customization) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

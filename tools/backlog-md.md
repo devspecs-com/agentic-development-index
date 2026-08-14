@@ -47,4 +47,4 @@ The recommended lifecycle centers tasks and one-task-per-session review. Reposit
 | --- | --- |
 | Canonical | [Backlog.md repository](https://github.com/MrLesk/Backlog.md) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

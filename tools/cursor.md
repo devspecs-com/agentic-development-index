@@ -48,4 +48,4 @@ Generated memories are product-managed and privacy-mode dependent. Rules can gui
 | Canonical | [Cursor](https://cursor.com/) |
 | Project-reported | [Cursor rules and memories](https://docs.cursor.com/context/rules) |
 
-[Back to Tools](README.md)
+[Back to the index](../README.md#tools)

@@ -48,4 +48,4 @@ This loop adds a small handoff cost. It pays off when review happens later or by
 | Primary session capture | [Entire documentation](https://docs.entire.io/) |
 | Primary bounded workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
-[Back to Learn](README.md)
+[Back to the index](../README.md#learning-guides)
