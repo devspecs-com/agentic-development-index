@@ -1,2 +1,5 @@
 # DevSpecs machine-local lifecycle manifests contain absolute workspace paths.
 devspecs/tasks/**/task.json
+
+# Local dependencies used by repository checks.
+node_modules/
