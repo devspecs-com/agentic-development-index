@@ -88,8 +88,10 @@ test("unsupported front matter fields fail instead of becoming metadata bags", a
   );
 });
 
-test("the production repository navigation contract passes before catalog seeding", async () => {
+test("the production repository validates the initial format and learning catalog", async () => {
   const { errors, records } = await validateIndex(repositoryRoot);
   assert.deepEqual(errors, []);
-  assert.equal(records.length, 0);
+  assert.equal(records.length, 16);
+  assert.equal(records.filter(({ data }) => data.category === "format").length, 11);
+  assert.equal(records.filter(({ data }) => data.category === "learn").length, 5);
 });

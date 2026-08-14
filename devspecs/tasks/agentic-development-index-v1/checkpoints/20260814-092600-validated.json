@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "checkpoint_id": "cp_20260814T092600Z_a03_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A03",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A03",
+  "slice_title": "Publish the initial format catalog and learning guides",
+  "parent_slice": "A03",
+  "stage": "validated",
+  "decision": "promote",
+  "created_at": "2026-08-14T09:26:00Z",
+  "goal": "Publish the initial format catalog and learning guides",
+  "description": "Published 11 sourced format profiles and five original workflow guides as canonical GitHub Markdown.",
+  "resources": [
+    "../A00-index.md",
+    "../A03-publish-the-initial-format-catalog-and-learning-plan.md",
+    "../A03-publish-the-initial-format-catalog-and-learning-result.md",
+    "../task.json"
+  ],
+  "files_edited": [
+    "devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-result.md",
+    "formats/README.md",
+    "learn/README.md",
+    "tests/index-validation.test.mjs",
+    "formats/agents-md.md",
+    "formats/architecture-decision-record.md",
+    "formats/checkpoint.md",
+    "formats/evaluation-card.md",
+    "formats/implementation-plan.md",
+    "formats/product-requirements-document.md",
+    "formats/request-for-comments.md",
+    "formats/session-handoff.md",
+    "formats/software-design-document.md",
+    "formats/task-slice.md",
+    "formats/technical-specification.md",
+    "learn/asynchronous-agent-work.md",
+    "learn/brownfield-intent-recovery.md",
+    "learn/context-vs-memory.md",
+    "learn/decision-gates-and-iteration-slices.md",
+    "learn/intent-work-layer.md"
+  ],
+  "tests_run": [
+    "npm test",
+    "npm run validate"
+  ],
+  "actual_context": {
+    "files_edited": [
+      "devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-result.md",
+      "formats/README.md",
+      "learn/README.md",
+      "tests/index-validation.test.mjs",
+      "formats/agents-md.md",
+      "formats/architecture-decision-record.md",
+      "formats/checkpoint.md",
+      "formats/evaluation-card.md",
+      "formats/implementation-plan.md",
+      "formats/product-requirements-document.md",
+      "formats/request-for-comments.md",
+      "formats/session-handoff.md",
+      "formats/software-design-document.md",
+      "formats/task-slice.md",
+      "formats/technical-specification.md",
+      "learn/asynchronous-agent-work.md",
+      "learn/brownfield-intent-recovery.md",
+      "learn/context-vs-memory.md",
+      "learn/decision-gates-and-iteration-slices.md",
+      "learn/intent-work-layer.md"
+    ],
+    "tests_run": [
+      "npm test",
+      "npm run validate"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "git_diff": {
+      "command": "git status --short --untracked-files=all; git diff --stat; git diff --name-only; git diff --cached --name-only; git ls-files --others --exclude-standard",
+      "status": " M devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-result.md\n M formats/README.md\n M learn/README.md\n M tests/index-validation.test.mjs\n?? formats/agents-md.md\n?? formats/architecture-decision-record.md\n?? formats/checkpoint.md\n?? formats/evaluation-card.md\n?? formats/implementation-plan.md\n?? formats/product-requirements-document.md\n?? formats/request-for-comments.md\n?? formats/session-handoff.md\n?? formats/software-design-document.md\n?? formats/task-slice.md\n?? formats/technical-specification.md\n?? learn/asynchronous-agent-work.md\n?? learn/brownfield-intent-recovery.md\n?? learn/context-vs-memory.md\n?? learn/decision-gates-and-iteration-slices.md\n?? learn/intent-work-layer.md\n",
+      "stat": " ...e-initial-format-catalog-and-learning-result.md | 39 ++++++++++++++++------\n formats/README.md                                  | 28 +++++++++++++---\n learn/README.md                                    | 10 +++---\n tests/index-validation.test.mjs                    |  6 ++--\n 4 files changed, 63 insertions(+), 20 deletions(-)\n",
+      "changed_files": [
+        "devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-result.md",
+        "formats/README.md",
+        "learn/README.md",
+        "tests/index-validation.test.mjs",
+        "formats/agents-md.md",
+        "formats/architecture-decision-record.md",
+        "formats/checkpoint.md",
+        "formats/evaluation-card.md",
+        "formats/implementation-plan.md",
+        "formats/product-requirements-document.md",
+        "formats/request-for-comments.md",
+        "formats/session-handoff.md",
+        "formats/software-design-document.md",
+        "formats/task-slice.md",
+        "formats/technical-specification.md",
+        "learn/asynchronous-agent-work.md",
+        "learn/brownfield-intent-recovery.md",
+        "learn/context-vs-memory.md",
+        "learn/decision-gates-and-iteration-slices.md",
+        "learn/intent-work-layer.md"
+      ],
+      "max_bytes": 12000,
+      "truncated": false
+    },
+    "git_diff_paths": [
+      "devspecs/tasks/agentic-development-index-v1/A03-publish-the-initial-format-catalog-and-learning-result.md",
+      "formats/README.md",
+      "learn/README.md",
+      "tests/index-validation.test.mjs",
+      "formats/agents-md.md",
+      "formats/architecture-decision-record.md",
+      "formats/checkpoint.md",
+      "formats/evaluation-card.md",
+      "formats/implementation-plan.md",
+      "formats/product-requirements-document.md",
+      "formats/request-for-comments.md",
+      "formats/session-handoff.md",
+      "formats/software-design-document.md",
+      "formats/task-slice.md",
+      "formats/technical-specification.md",
+      "learn/asynchronous-agent-work.md",
+      "learn/brownfield-intent-recovery.md",
+      "learn/context-vs-memory.md",
+      "learn/decision-gates-and-iteration-slices.md",
+      "learn/intent-work-layer.md"
+    ],
+    "plan_refs": [
+      "../A00-index.md",
+      "../A03-publish-the-initial-format-catalog-and-learning-plan.md",
+      "../A03-publish-the-initial-format-catalog-and-learning-result.md",
+      "../task.json"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "editorial",
+      "summary": "Format boundaries must distinguish proposal, decision, product outcome, behavior contract, and system design.",
+      "evidence_refs": [
+        "formats/README.md"
+      ],
+      "applies_to": "A04 capability mapping",
+      "confidence": "high"
+    },
+    {
+      "learning_type": "taxonomy",
+      "summary": "Task slice, checkpoint, and session handoff are separate execution, evidence, and continuity records.",
+      "evidence_refs": [
+        "formats/task-slice.md",
+        "formats/checkpoint.md",
+        "formats/session-handoff.md"
+      ],
+      "applies_to": "A04 tool profiles",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A04"
+  }
+}

@@ -1,12 +1,14 @@
 # Learn
 
-Concepts, guides, comparisons, and reports about preserving intent and work state in AI-assisted development.
-
-The initial guides are being written in A03. Each guide must add operational explanation or original analysis rather than restating linked sources.
+Concepts, guides, comparisons, and reports about preserving intent and work state in AI-assisted development. Each guide adds an operational model or workflow rather than restating linked sources.
 
 ## Index
 
-No learning guides are published yet.
+- [Context and memory solve different problems](context-vs-memory.md) - separate the evidence needed now from durable continuity across sessions.
+- [The work layer between issue and diff](intent-work-layer.md) - preserve the micro-decisions and attempts that conventional work items miss.
+- [Before, during, and after asynchronous agent work](asynchronous-agent-work.md) - bound a change, let the agent run, then review from durable evidence.
+- [Recover intent in a brownfield repository](brownfield-intent-recovery.md) - use existing artifacts as evidence without reviving stale instructions.
+- [Decision gates and iteration slices](decision-gates-and-iteration-slices.md) - turn implementation learning into an explicit promote, improve, rework, rollback, or block decision.
 
 ## Contribute
 
