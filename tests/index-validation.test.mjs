@@ -84,7 +84,7 @@ test("unindexed records fail category coverage", async () => {
 
 test("records must remain discoverable from the root catalog", async () => {
   await withMutatedFixture(
-    (root) => replaceInFile(root, "README.md", "- [Task slice](formats/task-slice.md)\n", ""),
+    (root) => replaceInFile(root, "README.md", "- [Task slice](formats/task-slice.md)", ""),
     ({ errors }) => assert.match(errors.join("\n"), /formats\/task-slice\.md: record is not linked from README\.md/),
   );
 });
