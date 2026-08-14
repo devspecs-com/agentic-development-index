@@ -6,7 +6,7 @@ The index separates what a project says, what source material demonstrates, what
 
 ## Evidence Classes
 
-1. **Canonical:** a specification, standard, official documentation page, license, or maintained source repository.
+1. **First-party:** a specification, standard, official documentation page, license, or maintained source repository published by the responsible project or organization.
 2. **Project-reported:** a capability or result stated by the project maintainer but not reproduced by this index.
 3. **Reproduced:** behavior observed through a documented command, fixture, or benchmark with retained receipts.
 4. **Independent:** a relevant third-party evaluation or report with attributable methodology.
@@ -21,7 +21,7 @@ A record belongs when it materially contributes to durable context, intent, work
 Records must have:
 
 - an identifiable project, author, or standards body;
-- a canonical public source;
+- at least two relevant public resources, including first-party material when it exists;
 - enough documentation to describe the item without speculation;
 - a clear relationship to the project charter;
 - licensing or access information where reuse is relevant.
@@ -39,7 +39,7 @@ Popularity is neither required nor sufficient.
 
 ## Freshness
 
-Tool profiles should be rechecked at least every 180 days. Formats and conceptual references should be rechecked at least annually, or sooner when their canonical specification changes. Datasets and benchmarks will define version-specific freshness rules before those registries launch.
+Tool profiles should be rechecked at least every 180 days. Formats and conceptual references should be rechecked at least annually, or sooner when a referenced specification or convention changes. Datasets and benchmarks will define version-specific freshness rules before those registries launch.
 
 Updating a date without rechecking the cited claims is not verification.
 

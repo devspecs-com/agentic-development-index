@@ -5,7 +5,6 @@ summary: A fixture CLI that indexes repository intent files locally and exposes 
 category: tool
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://example.com/local-intent-index
 tags:
   - cli
   - local-first
@@ -37,10 +36,11 @@ The cited documentation reports local indexing, retrieval, and repository naviga
 
 This is a validation fixture, not a production profile or recommendation.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Fixture tool documentation](https://example.com/local-intent-index) |
+| Project page | [Fixture tool documentation](https://example.com/local-intent-index) |
+| Source repository | [Fixture tool source](https://example.com/local-intent-index-source) |
 
 [Back to the index](../README.md#tools)

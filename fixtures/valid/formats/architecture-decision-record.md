@@ -5,7 +5,6 @@ summary: A durable record of one architecturally significant decision, its conte
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://adr.github.io/
 tags:
   - architecture
   - decisions
@@ -37,10 +36,11 @@ A decision title without context or consequences preserves the outcome while los
 
 The ADR community maintains [templates and examples](https://adr.github.io/).
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Architectural Decision Records](https://adr.github.io/) |
+| Overview | [Architectural Decision Records](https://adr.github.io/) |
+| Template collection | [ADR templates](https://example.com/adr-templates) |
 
 [Back to the index](../README.md#formats)

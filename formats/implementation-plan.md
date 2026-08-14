@@ -5,7 +5,6 @@ summary: A living execution document that sequences non-trivial work, validation
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md
 tags:
   - execution
   - planning
@@ -41,11 +40,11 @@ An agent can execute one bounded part, update progress, and record surprises. It
 
 OpenAI's ExecPlans guidance describes self-contained, living plans for long-running coding tasks. GitHub Spec Kit provides a related specification-to-plan-to-task flow.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical implementation guidance | [OpenAI Cookbook: Codex ExecPlans](https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md) |
-| Primary workflow example | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
+| Implementation guide | [OpenAI Cookbook: Codex ExecPlans](https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md) |
+| Workflow example | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
 
 [Back to the index](../README.md#formats)

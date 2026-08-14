@@ -5,7 +5,6 @@ summary: A workflow for turning implementation evidence into explicit promotion,
 category: learn
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/devspecs-com/agentic-development-index/blob/main/learn/decision-gates-and-iteration-slices.md
 tags:
   - decisions
   - iteration
@@ -38,12 +37,11 @@ The iteration slice should inherit the parent's goal and evidence, state the new
 
 Explicit gates can become ceremony if every trivial edit requires a lifecycle record. Use them where uncertainty, delegation, review latency, or blast radius makes the decision valuable. A named decision does not replace the evidence supporting it.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical guide | [Decision gates and iteration slices](https://github.com/devspecs-com/agentic-development-index/blob/main/learn/decision-gates-and-iteration-slices.md) |
-| Primary workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
+| Decision-gate workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 | Related living-plan model | [OpenAI Cookbook: Codex ExecPlans](https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md) |
 
 [Back to the index](../README.md#learning-guides)

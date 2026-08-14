@@ -5,7 +5,6 @@ summary: A package manager and registry for creating, evaluating, versioning, an
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://tessl.io/
 tags:
   - context-registry
   - agent-skills
@@ -41,11 +40,11 @@ Tessl documents custom agent setup and packages context in shared formats. Exact
 
 Agent results still depend on model behavior and instruction following. Hosted registry and organization features are service-managed, and third-party packages carry quality, security, licensing, and maintenance risks.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Tessl](https://tessl.io/) |
+| Project page | [Tessl](https://tessl.io/) |
 | Project-reported | [Skills and plugins overview](https://docs.tessl.io/creating-skills-and-plugins/overview.md) |
 | Project-reported | [Repository plugins](https://docs.tessl.io/distribute/repository-plugins.md) |
 

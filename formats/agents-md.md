@@ -5,7 +5,6 @@ summary: A repository-local instruction file for coding agents, including projec
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://agents.md/
 tags:
   - instructions
   - agents
@@ -41,10 +40,11 @@ Agents should read the nearest applicable `AGENTS.md` before editing, combine ne
 
 The format site provides a minimal example and guidance for monorepos, including nested instruction files for subprojects.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical specification | [`AGENTS.md` open format](https://agents.md/) |
+| Format guide | [`AGENTS.md` open format](https://agents.md/) |
+| Source repository | [`agents.md` repository](https://github.com/agentsmd/agents.md) |
 
 [Back to the index](../README.md#formats)

@@ -5,7 +5,6 @@ summary: A shell command-line tool for creating, numbering, linking, and superse
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/npryce/adr-tools
 tags:
   - adr
   - decisions
@@ -42,10 +41,11 @@ The project does not document a dedicated coding-agent adapter. An agent with sh
 
 The workflow is specialized to ADRs and a shell environment. It does not retrieve broader plans, source, tests, or agent-session state, and it does not provide an agent-specific execution lifecycle.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical source and documentation | [ADR Tools repository](https://github.com/npryce/adr-tools) |
+| Source and documentation | [ADR Tools repository](https://github.com/npryce/adr-tools) |
+| Releases | [ADR Tools releases](https://github.com/npryce/adr-tools/releases) |
 
 [Back to the index](../README.md#tools)

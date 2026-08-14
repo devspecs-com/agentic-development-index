@@ -5,7 +5,6 @@ summary: An inspectable contract for system behavior, interfaces, constraints, a
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.github.com/spec-kit/
 tags:
   - intent
   - specification
@@ -41,11 +40,11 @@ Agents can extract acceptance criteria, identify underspecified cases, and check
 
 GitHub's Spec Kit demonstrates a specification-first workflow that separates specification, planning, tasks, and implementation. IETF standards provide a more formal example of normative technical specification.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical workflow example | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
-| Primary standards process | [RFC 2026](https://datatracker.ietf.org/doc/rfc2026/) |
+| Workflow example | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
+| Standards process | [RFC 2026](https://datatracker.ietf.org/doc/rfc2026/) |
 
 [Back to the index](../README.md#formats)

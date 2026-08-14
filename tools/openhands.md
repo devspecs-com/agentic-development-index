@@ -5,7 +5,6 @@ summary: An open software-agent platform whose SDK can persist conversation even
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://docs.openhands.dev/
 tags:
   - coding-agent
   - session-state
@@ -41,12 +40,12 @@ OpenHands supplies its own agent runtime and SDK. Repository customization suppo
 
 Persisted conversations can contain secrets and large event histories; the documentation describes encryption or redaction choices. Enterprise licensing differs from the core project.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [OpenHands documentation](https://docs.openhands.dev/) |
+| Project page | [OpenHands documentation](https://docs.openhands.dev/) |
 | Project-reported | [Conversation persistence](https://docs.openhands.dev/sdk/guides/convo-persistence) |
-| Canonical source | [OpenHands repository](https://github.com/OpenHands/OpenHands) |
+| Source repository | [OpenHands repository](https://github.com/OpenHands/OpenHands) |
 
 [Back to the index](../README.md#tools)

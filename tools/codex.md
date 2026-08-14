@@ -5,7 +5,6 @@ summary: OpenAI's coding agent across CLI, IDE, app, and cloud surfaces with lay
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://developers.openai.com/codex/
 tags:
   - coding-agent
   - instructions
@@ -41,12 +40,12 @@ This profile covers Codex itself. Repository `AGENTS.md` files are also recogniz
 
 Instruction files set expectations but do not establish that a task is approved or complete. Features and persistence differ across CLI, IDE, app, and cloud surfaces; this profile does not flatten them into one storage claim.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Codex documentation](https://developers.openai.com/codex/) |
+| Project page | [Codex documentation](https://developers.openai.com/codex/) |
 | Project-reported | [Custom instructions with AGENTS.md](https://learn.chatgpt.com/docs/agent-configuration/agents-md) |
-| Canonical source | [Codex CLI repository](https://github.com/openai/codex) |
+| Source repository | [Codex CLI repository](https://github.com/openai/codex) |
 
 [Back to the index](../README.md#tools)

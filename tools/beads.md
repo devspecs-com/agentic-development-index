@@ -5,7 +5,6 @@ summary: A dependency-aware graph issue tracker for coding agents with ready-wor
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/gastownhall/beads
 tags:
   - task-graph
   - memory
@@ -41,11 +40,11 @@ The MIT-licensed `bd` CLI runs locally. Current documentation uses a Dolt databa
 
 The Dolt-backed synchronization model has operational concepts beyond ordinary Git files. Project issues document historical confusion around storage and worktrees; users should follow the current sync guidance rather than older JSONL workflows.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Beads repository](https://github.com/gastownhall/beads) |
+| Project page | [Beads repository](https://github.com/gastownhall/beads) |
 | Project-reported | [Beads agent instructions](https://github.com/gastownhall/beads/blob/main/AGENTS.md) |
 
 [Back to the index](../README.md#tools)

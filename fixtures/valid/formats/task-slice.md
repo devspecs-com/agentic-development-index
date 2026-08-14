@@ -5,7 +5,6 @@ summary: A bounded unit of implementation work with explicit scope, evidence exp
 category: format
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://www.devspecs.com/docs/task-flow
 tags:
   - agents
   - execution
@@ -37,10 +36,11 @@ Using slices for trivial edits creates ceremony without improving scope control 
 
 DevSpecs documents a [bounded task flow](https://www.devspecs.com/docs/task-flow).
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [DevSpecs task flow](https://www.devspecs.com/docs/task-flow) |
+| Project page | [DevSpecs task flow](https://www.devspecs.com/docs/task-flow) |
+| Planning model | [Task planning example](https://example.com/task-planning) |
 
 [Back to the index](../README.md#formats)

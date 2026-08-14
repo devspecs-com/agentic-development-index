@@ -5,7 +5,6 @@ summary: A fixture guide for preserving goal, evidence, decision state, and next
 category: learn
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://example.com/asynchronous-handoffs
 tags:
   - handoffs
   - continuity
@@ -29,10 +28,11 @@ Record the attempted slice, files changed, checks run, decision, known misses, a
 
 Structured handoffs cost a small amount of time and should be reserved for work where continuity matters.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Fixture handoff reference](https://example.com/asynchronous-handoffs) |
+| Project page | [Fixture handoff reference](https://example.com/asynchronous-handoffs) |
+| Workflow example | [Fixture handoff workflow](https://example.com/handoff-workflow) |
 
 [Back to the index](../README.md#learning-guides)

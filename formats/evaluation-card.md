@@ -5,7 +5,6 @@ summary: A compact, reviewable record of an evaluation's task, data, criteria, e
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://platform.openai.com/docs/guides/evals
 tags:
   - evidence
   - evaluation
@@ -41,11 +40,11 @@ Agents can assemble receipts and compare runs, but should not generalize beyond 
 
 OpenAI Evals separates evaluation definitions, data-source schemas, testing criteria, runs, and output items. An index card can link those machine records to a concise human interpretation.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical evaluation guide | [OpenAI Evals](https://platform.openai.com/docs/guides/evals) |
-| Primary API model | [OpenAI Evals API](https://platform.openai.com/docs/api-reference/evals) |
+| Evaluation guide | [OpenAI Evals](https://platform.openai.com/docs/guides/evals) |
+| API reference | [OpenAI Evals API](https://platform.openai.com/docs/api-reference/evals) |
 
 [Back to the index](../README.md#formats)

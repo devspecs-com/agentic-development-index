@@ -57,10 +57,16 @@ test("duplicate IDs identify both records", async () => {
   );
 });
 
-test("records require visibly labeled canonical evidence", async () => {
+test("records require at least two useful resources", async () => {
   await withMutatedFixture(
-    (root) => replaceInFile(root, "formats/architecture-decision-record.md", "| Canonical |", "| Project-reported |"),
-    ({ errors }) => assert.match(errors.join("\n"), /Sources must label at least one Canonical source/),
+    (root) =>
+      replaceInFile(
+        root,
+        "formats/architecture-decision-record.md",
+        "| Template collection | [ADR templates](https://example.com/adr-templates) |\n",
+        "",
+      ),
+    ({ errors }) => assert.match(errors.join("\n"), /Resources must contain at least two HTTPS links/),
   );
 });
 
@@ -102,16 +108,16 @@ test("root catalog entries require useful inline summaries", async () => {
   );
 });
 
-test("format tooling relationships use canonical local tool profiles", async () => {
+test("format tooling relationships use local tool profiles", async () => {
   await withMutatedFixture(
     (root) =>
       replaceInFile(
         root,
         "formats/architecture-decision-record.md",
-        "## Sources",
-        "## Related Tools\n\n- [Vendor page](https://example.com/tool) creates ADRs.\n\n## Sources",
+        "## Resources",
+        "## Related Tools\n\n- [Vendor page](https://example.com/tool) creates ADRs.\n\n## Resources",
       ),
-    ({ errors }) => assert.match(errors.join("\n"), /Related Tools link .* must point to a canonical local profile under tools\//),
+    ({ errors }) => assert.match(errors.join("\n"), /Related Tools link .* must point to a local profile under tools\//),
   );
 });
 

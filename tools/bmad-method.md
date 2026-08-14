@@ -5,7 +5,6 @@ summary: A modular agent workflow that produces planning, architecture, story, s
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/bmad-code-org/BMAD-METHOD
 tags:
   - specifications
   - orchestration
@@ -41,11 +40,11 @@ The documented prerequisites include Claude Code, Cursor, and similar AI-powered
 
 The method introduces many roles and artifacts, so small work needs its quick-flow path. This index has not reproduced the end-to-end method or verified every host integration.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [BMAD Method repository](https://github.com/bmad-code-org/BMAD-METHOD) |
+| Project page | [BMAD Method repository](https://github.com/bmad-code-org/BMAD-METHOD) |
 | Project-reported | [Getting started](https://github.com/bmad-code-org/BMAD-METHOD/blob/main/docs/tutorials/getting-started.md) |
 
 [Back to the index](../README.md#tools)

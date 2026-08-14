@@ -5,7 +5,6 @@ summary: A fixture service that retains coding-agent session history in a hosted
 category: tool
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://example.com/hosted-session-memory
 tags:
   - cloud
   - sessions
@@ -37,10 +36,11 @@ The fixture illustrates session capture, memory, and later review.
 
 The fixture does not establish a local export or offline operating mode.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Fixture service documentation](https://example.com/hosted-session-memory) |
+| Project page | [Fixture service documentation](https://example.com/hosted-session-memory) |
+| API guide | [Fixture service API](https://example.com/session-memory-api) |
 
 [Back to the index](../README.md#tools)

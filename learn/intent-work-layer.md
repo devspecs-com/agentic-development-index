@@ -5,7 +5,6 @@ summary: Why AI-assisted development needs durable records for the attempts and 
 category: learn
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/devspecs-com/agentic-development-index/blob/main/learn/intent-work-layer.md
 tags:
   - intent
   - decisions
@@ -37,12 +36,11 @@ Keep the issue tracker as the coordination layer and Git as the code history. St
 
 Capturing every tool call creates noise. Capturing nothing forces reconstruction. Use durable records at decision and handoff boundaries, with lighter treatment for obvious one-off fixes. The work layer earns its cost when changes span sessions, agents, repositories, or uncertain decisions.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical guide | [The work layer between issue and diff](https://github.com/devspecs-com/agentic-development-index/blob/main/learn/intent-work-layer.md) |
-| Primary decision format | [Architectural Decision Records](https://adr.github.io/) |
-| Primary task lifecycle | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
+| Decision-record overview | [Architectural Decision Records](https://adr.github.io/) |
+| Task lifecycle example | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
 [Back to the index](../README.md#learning-guides)

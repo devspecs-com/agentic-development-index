@@ -5,7 +5,6 @@ summary: Explain the durable artifact and the development problem it addresses.
 category: format
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://example.com/format
 tags:
   - example
 ---
@@ -34,7 +33,7 @@ Explain how an agent should read or update it without treating stale intent as a
 
 ## Related Tools
 
-Optional: link only to canonical profiles under `tools/` and state the typed relationship, such as creates, validates, renders, indexes, links, publishes, or manages lifecycle. Remove this section when no tool relationship has been verified.
+Optional: link only to maintained profiles under `tools/` and state the typed relationship, such as creates, validates, renders, indexes, links, publishes, or manages lifecycle. Remove this section when no tool relationship has been verified.
 
 | Tool | Relationship to this format |
 | --- | --- |
@@ -52,10 +51,11 @@ Name the common failure modes and misleading uses.
 
 Link to an inspectable example or template.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Canonical format reference](https://example.com/format) |
+| Format reference | [Format documentation](https://example.com/format) |
+| Template collection | [Format examples](https://example.com/format-examples) |
 
 [Back to Formats](../formats/README.md)

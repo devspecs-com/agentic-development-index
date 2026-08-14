@@ -5,7 +5,6 @@ summary: A docs-as-code CLI and static-site generator for creating, browsing, se
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/thomvaill/log4brains
 tags:
   - adr
   - docs-as-code
@@ -43,10 +42,11 @@ The project does not document a dedicated coding-agent adapter. Agents with shel
 
 The workflow is centered on ADR authoring and publication. It does not connect decisions to current source/test ownership or capture a general coding-agent task lifecycle. Some generated metadata depends on complete Git history.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical source and documentation | [Log4brains repository](https://github.com/thomvaill/log4brains) |
+| Source and documentation | [Log4brains repository](https://github.com/thomvaill/log4brains) |
+| Releases | [Log4brains releases](https://github.com/thomvaill/log4brains/releases) |
 
 [Back to the index](../README.md#tools)

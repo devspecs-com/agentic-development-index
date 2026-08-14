@@ -5,7 +5,6 @@ summary: A developer tool that captures coding-agent sessions as Git-linked chec
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://entire.io/
 tags:
   - session-capture
   - provenance
@@ -41,12 +40,12 @@ Official integrations cover supported terminal coding agents. Support and captur
 
 Session capture can preserve more detail than a reviewer needs and does not make agent claims correct. Agent coverage and storage behavior should be checked against the current integration documentation.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Entire](https://entire.io/) |
-| Canonical source | [Entire CLI repository](https://github.com/entireio/cli) |
+| Project page | [Entire](https://entire.io/) |
+| Source repository | [Entire CLI repository](https://github.com/entireio/cli) |
 | Project-reported | [Entire documentation](https://docs.entire.io/) |
 
 [Back to the index](../README.md#tools)

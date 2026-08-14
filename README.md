@@ -96,7 +96,7 @@ These groups overlap. They are navigation aids, not scores or claims of equivale
 - A **tool** creates, validates, renders, indexes, links, publishes, or manages those artifacts.
 - A **learning guide** explains when and how to use them in a real development workflow.
 
-Tool facts live in one canonical tool profile. Format pages may curate typed relationships to those profiles, but do not duplicate vendor descriptions or maintain parallel tool lists.
+Tool facts live in one maintained tool profile. Format pages may curate typed relationships to those profiles, but do not duplicate vendor descriptions or maintain parallel tool lists.
 
 ## Why It Exists
 
@@ -106,7 +106,7 @@ It is not a general AI-tools directory, paid marketplace, endorsement program, o
 
 ## Evidence Rules
 
-- Non-obvious claims cite canonical documentation, source, or reproducible evidence.
+- Non-obvious claims cite first-party documentation, maintained source, or reproducible evidence.
 - Project-reported behavior stays distinct from behavior reproduced by index maintainers.
 - Records show status, attribution, limitations, and a `last_verified` date.
 - Inclusion is free. Paid placement and required backlinks are not accepted.

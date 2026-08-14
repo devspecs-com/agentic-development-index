@@ -5,7 +5,6 @@ summary: A product-facing record of the problem, users, desired outcome, scope, 
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://www.atlassian.com/software/confluence/templates/product-requirements
 tags:
   - intent
   - product
@@ -32,7 +31,7 @@ An agent can turn requirements into questions, acceptance checks, or bounded imp
 
 ## Related Tools
 
-The relationship describes the evidenced PRD job, not an overall product ranking. The link opens the canonical tool profile maintained by this index.
+The relationship describes the evidenced PRD job, not an overall product ranking. The link opens the local tool profile maintained by this index.
 
 | Tool | Relationship to PRDs |
 | --- | --- |
@@ -49,10 +48,11 @@ The relationship describes the evidenced PRD job, not an overall product ranking
 
 Atlassian's product requirements template demonstrates a concise structure around objective, assumptions, requirements, user interaction, and questions.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical template | [Atlassian product requirements template](https://www.atlassian.com/software/confluence/templates/product-requirements) |
+| Template | [Atlassian product requirements template](https://www.atlassian.com/software/confluence/templates/product-requirements) |
+| Requirements guide | [Product requirements](https://www.atlassian.com/agile/product-management/requirements) |
 
 [Back to the index](../README.md#formats)

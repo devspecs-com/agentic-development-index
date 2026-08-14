@@ -5,7 +5,6 @@ summary: GitHub's coding-assistant and agent product with repository instruction
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://docs.github.com/en/copilot
 tags:
   - coding-agent
   - instructions
@@ -41,11 +40,11 @@ The mechanisms configure GitHub Copilot surfaces. GitHub also documents support 
 
 Instruction support varies across Copilot surfaces, and GitHub notes that models may not follow instructions deterministically. Service state is not a local cross-agent memory store.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [GitHub Copilot documentation](https://docs.github.com/en/copilot) |
+| Project page | [GitHub Copilot documentation](https://docs.github.com/en/copilot) |
 | Project-reported | [Customize Copilot for a project](https://docs.github.com/en/copilot/how-tos/copilot-on-github/customize-copilot/customize-copilot-overview) |
 | Project-reported | [Custom instructions](https://docs.github.com/en/copilot/concepts/prompting/response-customization) |
 

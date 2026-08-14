@@ -7,15 +7,15 @@ import { parseDocument } from "yaml";
 const categories = {
   formats: {
     value: "format",
-    headings: ["What It Is", "When To Use It", "Lifecycle", "Agent Use", "Pitfalls", "Examples", "Sources"],
+    headings: ["What It Is", "When To Use It", "Lifecycle", "Agent Use", "Pitfalls", "Examples", "Resources"],
   },
   learn: {
     value: "learn",
-    headings: ["What You Will Learn", "Why It Matters", "Workflow", "Tradeoffs", "Sources"],
+    headings: ["What You Will Learn", "Why It Matters", "Workflow", "Tradeoffs", "Resources"],
   },
   tools: {
     value: "tool",
-    headings: ["What It Does", "Where It Fits", "Deployment And Storage", "Agent Support", "Capabilities", "Limitations", "Sources"],
+    headings: ["What It Does", "Where It Fits", "Deployment And Storage", "Agent Support", "Capabilities", "Limitations", "Resources"],
   },
 };
 
@@ -26,7 +26,6 @@ const allowedFields = new Set([
   "category",
   "status",
   "last_verified",
-  "canonical_url",
   "tags",
 ]);
 const statuses = new Set(["draft", "reviewed", "maintainer-verified", "disputed", "stale", "archived"]);
@@ -107,19 +106,19 @@ function validateRelatedToolLinks(root, filePath, tokens, relativePath) {
   const errors = [];
   const links = linksFromTokens(section);
   if (links.length === 0) {
-    return [`${relativePath}: Related Tools must link to at least one canonical profile under tools/`];
+    return [`${relativePath}: Related Tools must link to at least one local profile under tools/`];
   }
 
   for (const href of links) {
     if (/^(?:https?:|mailto:|#)/i.test(href)) {
-      errors.push(`${relativePath}: Related Tools link '${href}' must point to a canonical local profile under tools/`);
+      errors.push(`${relativePath}: Related Tools link '${href}' must point to a local profile under tools/`);
       continue;
     }
     const targetText = decodeURIComponent(href.split("#", 1)[0].split("?", 1)[0]);
     const target = path.resolve(path.dirname(filePath), targetText);
     const targetRelative = path.relative(root, target).replaceAll(path.sep, "/");
     if (!/^tools\/[^/]+\.md$/i.test(targetRelative) || targetRelative === "tools/README.md") {
-      errors.push(`${relativePath}: Related Tools link '${href}' must point to a canonical local profile under tools/`);
+      errors.push(`${relativePath}: Related Tools link '${href}' must point to a local profile under tools/`);
     }
   }
   return errors;
@@ -241,9 +240,6 @@ function validateMetadata(data, relativePath, expectedCategory) {
   if (!validDate(data.last_verified)) {
     errors.push(`${relativePath}: last_verified must be a valid YYYY-MM-DD date`);
   }
-  if (!validHttpsUrl(data.canonical_url)) {
-    errors.push(`${relativePath}: canonical_url must be a valid HTTPS URL`);
-  }
   if (!Array.isArray(data.tags) || data.tags.length === 0) {
     errors.push(`${relativePath}: tags must contain at least one value`);
   } else {
@@ -293,14 +289,10 @@ async function parseRecord(root, filePath, categoryName) {
     errors.push(`${relativePath}: H1 must match front matter title '${parsed.data.title}'`);
   }
 
-  const sources = sectionTokens(tokens, "Sources");
-  const sourceLinks = linksFromTokens(sources).filter((href) => validHttpsUrl(href));
-  const sourceText = sources.map((token) => token.raw ?? token.text ?? "").join("\n");
-  if (sourceLinks.length === 0) {
-    errors.push(`${relativePath}: Sources must contain at least one HTTPS link`);
-  }
-  if (!/\bcanonical\b/i.test(sourceText)) {
-    errors.push(`${relativePath}: Sources must label at least one Canonical source`);
+  const resources = sectionTokens(tokens, "Resources");
+  const resourceLinks = linksFromTokens(resources).filter((href) => validHttpsUrl(href));
+  if (resourceLinks.length < 2) {
+    errors.push(`${relativePath}: Resources must contain at least two HTTPS links`);
   }
 
   errors.push(...(await validateLocalLinks(root, filePath, tokens)));

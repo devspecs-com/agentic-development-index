@@ -5,7 +5,6 @@ summary: A session-history tool that reads local coding-agent stores, exports co
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://specstory.com/
 tags:
   - session-capture
   - handoff
@@ -41,11 +40,11 @@ Official usage documentation names Claude Code, Cursor, Factory, Codex, Gemini C
 
 Cross-agent translation cannot guarantee equivalent hidden instructions or tool state. Local session formats can change, and raw history can be less concise than a reviewed checkpoint.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [SpecStory](https://specstory.com/) |
+| Project page | [SpecStory](https://specstory.com/) |
 | Project-reported | [Terminal coding-agent usage](https://docs.specstory.com/integrations/terminal-coding-agents/usage) |
 
 [Back to the index](../README.md#tools)

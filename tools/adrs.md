@@ -5,7 +5,6 @@ summary: A cross-platform Rust CLI for creating, searching, validating, converti
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/joshrotenberg/adrs
 tags:
   - adr
   - cli
@@ -43,10 +42,11 @@ The default build includes an MCP server that exposes ADR operations to compatib
 
 Its evidence model is the ADR repository itself. It does not establish whether a decision matches current source or tests, and its MCP surface does not turn ADR lifecycle into a broader implementation checkpoint system.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical source and documentation | [ADRs repository](https://github.com/joshrotenberg/adrs) |
+| Source and documentation | [ADRs repository](https://github.com/joshrotenberg/adrs) |
+| Releases | [ADRs releases](https://github.com/joshrotenberg/adrs/releases) |
 
 [Back to the index](../README.md#tools)

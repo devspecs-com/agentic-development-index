@@ -5,7 +5,6 @@ summary: An open-source, agent-integrated harness for producing specifications, 
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.github.com/spec-kit/
 tags:
   - specifications
   - planning
@@ -41,11 +40,11 @@ Spec Kit documents integrations for many coding agents, including Copilot, Claud
 
 The workflow can produce substantial artifact volume. Official documentation states that spec persistence strategy remains a user choice, and downloaded workflows can execute unsandboxed shell steps.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
+| Project page | [GitHub Spec Kit](https://github.github.com/spec-kit/) |
 | Project-reported | [Agentic SDD reference](https://github.github.com/spec-kit/reference/agentic-sdd.html) |
 | Project-reported | [Workflow reference](https://github.github.com/spec-kit/reference/workflows.html) |
 

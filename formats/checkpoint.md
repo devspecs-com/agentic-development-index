@@ -5,7 +5,6 @@ summary: A durable receipt of an attempted slice, observed evidence, unresolved 
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://docs.devspecs.com/greenfield/task-flow
 tags:
   - evidence
   - decisions
@@ -41,11 +40,11 @@ Agents should populate checkpoints from actual tool output and repository change
 
 DevSpecs checkpoints record stage, decision, files, tests, learnings, and next target. Entire checkpoints preserve coding-agent context alongside Git history using a different capture model.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical workflow | [DevSpecs task checkpoints](https://docs.devspecs.com/greenfield/task-flow) |
+| Workflow guide | [DevSpecs task checkpoints](https://docs.devspecs.com/greenfield/task-flow) |
 | Related implementation | [Entire documentation](https://docs.entire.io/) |
 
 [Back to the index](../README.md#formats)

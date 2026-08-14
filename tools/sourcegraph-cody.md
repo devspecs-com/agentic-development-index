@@ -5,7 +5,6 @@ summary: A code assistant that uses Sourcegraph search and code-graph data to re
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://sourcegraph.com/docs/cody
 tags:
   - repository-context
   - code-graph
@@ -41,11 +40,11 @@ Cody runs in VS Code, JetBrains, Visual Studio, and the Sourcegraph web app. MCP
 
 Some context and filtering features require Enterprise versions or feature flags. Retrieved relevance does not establish which historical plan is current or whether a change is accepted.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Sourcegraph Cody](https://sourcegraph.com/docs/cody) |
+| Project page | [Sourcegraph Cody](https://sourcegraph.com/docs/cody) |
 | Project-reported | [Cody context](https://sourcegraph.com/docs/cody/core-concepts/context) |
 | Project-reported | [Code Graph](https://sourcegraph.com/docs/cody/core-concepts/code-graph) |
 

@@ -5,7 +5,6 @@ summary: A Markdown-native task manager that gives humans and coding agents one 
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/MrLesk/Backlog.md
 tags:
   - task-lifecycle
   - local-first
@@ -41,10 +40,11 @@ Documented setup covers Claude Code, Codex, Gemini CLI, Kiro, Cursor, and generi
 
 The recommended lifecycle centers tasks and one-task-per-session review. Repository evidence retrieval and session capture are separate concerns. The index has not reproduced its cross-branch behavior.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Backlog.md repository](https://github.com/MrLesk/Backlog.md) |
+| Project page | [Backlog.md repository](https://github.com/MrLesk/Backlog.md) |
+| Releases | [Backlog.md releases](https://github.com/MrLesk/Backlog.md/releases) |
 
 [Back to the index](../README.md#tools)

@@ -5,7 +5,6 @@ summary: An open-source platform for configurable coding agents, repository rule
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://docs.continue.dev/
 tags:
   - coding-agent
   - rules
@@ -41,12 +40,12 @@ Continue supplies its own IDE and CLI agents and can connect different model pro
 
 Current documentation deprecates some older context-provider workflows, so copied configurations may be stale. Rules are prompt guidance rather than an auditable execution lifecycle.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Continue documentation](https://docs.continue.dev/) |
-| Canonical source | [Continue repository](https://github.com/continuedev/continue) |
+| Project page | [Continue documentation](https://docs.continue.dev/) |
+| Source repository | [Continue repository](https://github.com/continuedev/continue) |
 | Project-reported | [Rules](https://docs.continue.dev/customize/rules) |
 | Project-reported | [Configuration reference](https://docs.continue.dev/reference) |
 

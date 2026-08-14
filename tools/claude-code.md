@@ -5,7 +5,6 @@ summary: Anthropic's coding agent with repository instruction files, scoped rule
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://code.claude.com/docs/
 tags:
   - coding-agent
   - memory
@@ -41,11 +40,11 @@ The files directly configure Claude Code. Shared `AGENTS.md` compatibility depen
 
 Auto memory is agent-specific and may not be team-versioned. Instructions are prompt context, not proof of current behavior or approval. Full sessions can still contain more noise than a reviewed handoff.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Claude Code documentation](https://code.claude.com/docs/) |
+| Project page | [Claude Code documentation](https://code.claude.com/docs/) |
 | Project-reported | [How Claude remembers your project](https://code.claude.com/docs/en/memory) |
 
 [Back to the index](../README.md#tools)

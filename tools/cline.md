@@ -5,7 +5,6 @@ summary: An open-source VS Code coding agent with persistent rules and a Markdow
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://cline.bot/
 tags:
   - coding-agent
   - memory
@@ -41,12 +40,12 @@ Memory Bank is a Cline workflow, while its Markdown records remain readable by h
 
 Memory updates rely on the agent following instructions and can become stale or verbose. The index has not reproduced how reliably current releases refresh or prioritize the files.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Cline](https://cline.bot/) |
-| Canonical source | [Cline repository](https://github.com/cline/cline) |
+| Project page | [Cline](https://cline.bot/) |
+| Source repository | [Cline repository](https://github.com/cline/cline) |
 | Project-reported | [Memory Bank](https://docs.cline.bot/best-practices/memory-bank) |
 | Project-reported | [Cline rules](https://docs.cline.bot/customization/cline-rules) |
 

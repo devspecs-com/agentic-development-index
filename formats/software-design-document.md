@@ -5,7 +5,6 @@ summary: A structured explanation of a software system's boundaries, building bl
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://docs.arc42.org/home/
 tags:
   - intent
   - design
@@ -41,11 +40,11 @@ Agents can use the document to locate likely owners and constraints before searc
 
 The arc42 template organizes architecture documentation into twelve adaptable sections and explicitly supports leaner or more thorough variants.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical reference | [arc42 documentation](https://docs.arc42.org/home/) |
-| Primary template | [arc42 overview](https://arc42.org/overview) |
+| Reference guide | [arc42 documentation](https://docs.arc42.org/home/) |
+| Template overview | [arc42 overview](https://arc42.org/overview) |
 
 [Back to the index](../README.md#formats)

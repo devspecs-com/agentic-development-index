@@ -5,7 +5,6 @@ summary: Explain the practical outcome a reader will reach by following this gui
 category: learn
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://example.com/guide
 tags:
   - example
 ---
@@ -28,10 +27,11 @@ Give a usable sequence, example, or decision model.
 
 Explain where the approach helps, where it costs, and what it does not solve.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Canonical reference](https://example.com/guide) |
+| Background reading | [Concept guide](https://example.com/guide) |
+| Practical example | [Workflow example](https://example.com/workflow) |
 
 [Back to Learn](../learn/README.md)

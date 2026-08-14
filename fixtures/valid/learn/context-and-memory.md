@@ -5,7 +5,6 @@ summary: A fixture guide that distinguishes evidence selected for current work f
 category: learn
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://example.com/context-and-memory
 tags:
   - context
   - memory
@@ -29,10 +28,11 @@ Identify durable repository evidence first, then select the bounded subset neede
 
 More retained state can improve continuity while increasing noise and stale-instruction risk.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Fixture concept reference](https://example.com/context-and-memory) |
+| Project page | [Fixture concept reference](https://example.com/context-and-memory) |
+| Practical example | [Fixture context workflow](https://example.com/context-workflow) |
 
 [Back to the index](../README.md#learning-guides)

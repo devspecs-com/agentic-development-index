@@ -5,7 +5,6 @@ summary: A reviewable proposal that invites feedback before a consequential tech
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://www.ietf.org/process/rfcs/
 tags:
   - intent
   - proposals
@@ -32,7 +31,7 @@ Agents can summarize open questions, compare the proposal with repository eviden
 
 ## Related Tools
 
-The relationship describes the evidenced RFC job, not an overall product ranking. The link opens the canonical tool profile maintained by this index.
+The relationship describes the evidenced RFC job, not an overall product ranking. The link opens the local tool profile maintained by this index.
 
 | Tool | Relationship to RFCs |
 | --- | --- |
@@ -49,11 +48,11 @@ The relationship describes the evidenced RFC job, not an overall product ranking
 
 The IETF publishes the [RFC series](https://www.rfc-editor.org/) and its standards process. Internal RFCs can borrow the review discipline while using a lighter repository-native template.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical process | [IETF RFCs](https://www.ietf.org/process/rfcs/) |
-| Primary process definition | [RFC 2026: The Internet Standards Process](https://datatracker.ietf.org/doc/rfc2026/) |
+| Process overview | [IETF RFCs](https://www.ietf.org/process/rfcs/) |
+| Standards process | [RFC 2026: The Internet Standards Process](https://datatracker.ietf.org/doc/rfc2026/) |
 
 [Back to the index](../README.md#formats)

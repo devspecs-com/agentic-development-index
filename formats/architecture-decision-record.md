@@ -5,7 +5,6 @@ summary: A durable record of one consequential architecture decision, its contex
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://adr.github.io/
 tags:
   - intent
   - architecture
@@ -42,7 +41,7 @@ An agent should use current ADRs as constraints and superseded ADRs as historica
 
 ## Related Tools
 
-The relationship describes the evidenced ADR job, not an overall product ranking. Each link opens the canonical tool profile maintained by this index.
+The relationship describes the evidenced ADR job, not an overall product ranking. Each link opens the local tool profile maintained by this index.
 
 | Tool | Relationship to ADRs |
 | --- | --- |
@@ -69,14 +68,14 @@ The relationship describes the evidenced ADR job, not an overall product ranking
 
 Michael Nygard's original article includes the compact record structure and supersession model. The [MADR project](https://adr.github.io/madr/) provides full and minimal Markdown templates. The ADR GitHub organization compares [Nygard, MADR, Y-Statement, and other templates](https://adr.github.io/adr-templates/) and maintains a separate, inclusive [decision-capturing tool catalog](https://adr.github.io/adr-tooling/). [adr.zone](https://adr.zone/) offers a browsable guide to ADR formats, templates, examples, and tooling.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical origin | [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) |
-| Canonical overview | [Architectural Decision Records](https://adr.github.io/) |
-| Canonical variants | [ADR Templates](https://adr.github.io/adr-templates/) |
-| Canonical MADR project | [Markdown Architectural Decision Records](https://adr.github.io/madr/) |
-| Canonical ecosystem catalog | [Decision Capturing Tools](https://adr.github.io/adr-tooling/) |
+| Original article | [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) |
+| Overview | [Architectural Decision Records](https://adr.github.io/) |
+| Template variants | [ADR Templates](https://adr.github.io/adr-templates/) |
+| MADR project | [Markdown Architectural Decision Records](https://adr.github.io/madr/) |
+| Tool catalog | [Decision Capturing Tools](https://adr.github.io/adr-tooling/) |
 
 [Back to the index](../README.md#formats)

@@ -5,7 +5,6 @@ summary: Explain the durable context or lifecycle job this tool performs for dev
 category: tool
 status: draft
 last_verified: 2026-08-14
-canonical_url: https://example.com/tool
 tags:
   - example
 ---
@@ -36,10 +35,11 @@ Describe only capabilities supported by the cited sources.
 
 Record material boundaries, unknowns, or behavior that has not been reproduced by index maintainers.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Official documentation](https://example.com/tool) |
+| Project page | [Official documentation](https://example.com/tool) |
+| Source repository | [Project source](https://example.com/tool-source) |
 
 [Back to Tools](../tools/README.md)

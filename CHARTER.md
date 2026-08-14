@@ -46,7 +46,7 @@ The index may link to DevSpecs where editorially relevant. It must remain useful
 
 ## Publication Boundary
 
-This GitHub repository is the canonical v1 publication. It owns the indexes, profiles, guides, evidence history, and contribution process. A future website or data consumer may derive from the repository, but neither is required for launch or authoritative over the Markdown source.
+This GitHub repository is the v1 publication. It contains the indexes, profiles, guides, evidence history, and contribution process. A future website or data consumer may derive from the repository, but neither is required for launch or authoritative over the versioned Markdown source.
 
 ## Success Signals
 

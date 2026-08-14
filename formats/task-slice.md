@@ -5,7 +5,6 @@ summary: One bounded, independently reviewable unit of execution inside a larger
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://docs.devspecs.com/greenfield/task-flow
 tags:
   - execution
   - scope
@@ -41,11 +40,11 @@ The agent should implement only the addressed slice, run its checks, record miss
 
 The DevSpecs task flow shows explicit slices, one-target prompts, checkpoints, and `A01-1` follow-up iterations. OpenAI ExecPlans provide a broader living-plan model in which progress and discoveries stay current.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
+| Workflow guide | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 | Related plan model | [OpenAI Cookbook: Codex ExecPlans](https://github.com/openai/openai-cookbook/blob/main/articles/codex_exec_plans.md) |
 
 [Back to the index](../README.md#formats)

@@ -5,7 +5,6 @@ summary: A Backstage community plugin that retrieves, renders, and searches repo
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/backstage/community-plugins/tree/main/workspaces/adr/plugins/adr
 tags:
   - adr
   - developer-portal
@@ -43,10 +42,11 @@ The project documents developer-portal UI and search integration rather than a c
 
 Adoption requires a configured Backstage application, backend plugin, software-catalog entities, and repository integrations. The plugin does not create ADRs or preserve implementation attempts, source/test evidence, or task checkpoints.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical source and setup documentation | [Backstage ADR Plugin](https://github.com/backstage/community-plugins/tree/main/workspaces/adr/plugins/adr) |
+| Source and setup guide | [Backstage ADR Plugin](https://github.com/backstage/community-plugins/tree/main/workspaces/adr/plugins/adr) |
+| Backend companion | [Backstage ADR backend plugin](https://github.com/backstage/community-plugins/tree/main/workspaces/adr/plugins/adr-backend) |
 
 [Back to the index](../README.md#tools)

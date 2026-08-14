@@ -5,7 +5,6 @@ summary: An agentic IDE and web product with structured specs, repository steeri
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://kiro.dev/
 tags:
   - coding-agent
   - specifications
@@ -41,11 +40,11 @@ Kiro is the agent host. It also recognizes `AGENTS.md` as steering input and sup
 
 Behavior and storage differ across IDE, CLI, and web. Kiro's docs identify some features as preview, and a spec's generated task list is not independent evidence that implementation passed.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Kiro documentation](https://kiro.dev/docs/) |
+| Project page | [Kiro documentation](https://kiro.dev/docs/) |
 | Project-reported | [Steering](https://kiro.dev/docs/steering/) |
 | Project-reported | [Web specs](https://kiro.dev/docs/web/specs/) |
 

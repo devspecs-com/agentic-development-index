@@ -5,7 +5,6 @@ summary: A commercial coding platform and context service that semantically inde
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://www.augmentcode.com/
 tags:
   - repository-context
   - indexing
@@ -41,11 +40,11 @@ The MCP integration is documented for Claude Code, Codex, Gemini CLI, and other 
 
 Most quality and efficiency results are project-reported and are not reproduced by this index. Retrieval can surface intent artifacts, but their lifecycle authority still needs an external convention.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Augment Code](https://www.augmentcode.com/) |
+| Project page | [Augment Code](https://www.augmentcode.com/) |
 | Project-reported | [Context Services overview](https://docs.augmentcode.com/context-services/overview) |
 
 [Back to the index](../README.md#tools)

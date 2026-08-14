@@ -5,7 +5,6 @@ summary: A three-phase workflow for delegating a bounded change, working elsewhe
 category: learn
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/devspecs-com/agentic-development-index/blob/main/learn/asynchronous-agent-work.md
 tags:
   - asynchronous
   - agents
@@ -40,12 +39,11 @@ Inspect the diff and test output. Read the checkpoint beside that physical evide
 
 This loop adds a small handoff cost. It pays off when review happens later or by someone else. It cannot make weak tests trustworthy or transfer human product judgment to an agent; those remain explicit gates.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical guide | [Before, during, and after asynchronous agent work](https://github.com/devspecs-com/agentic-development-index/blob/main/learn/asynchronous-agent-work.md) |
-| Primary session capture | [Entire documentation](https://docs.entire.io/) |
-| Primary bounded workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
+| Session capture example | [Entire documentation](https://docs.entire.io/) |
+| Bounded workflow example | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
 [Back to the index](../README.md#learning-guides)

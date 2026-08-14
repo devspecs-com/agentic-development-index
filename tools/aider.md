@@ -5,7 +5,6 @@ summary: A terminal coding agent that builds a ranked repository map, edits loca
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://aider.chat/
 tags:
   - navigation
   - coding-agent
@@ -41,11 +40,11 @@ Aider is itself the agent interface. It can also copy its selected code context 
 
 The project documents one-repository operation; multi-repository work requires manual read-only files or exported maps. Repository mapping explains code structure, not current product intent or decision state.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Aider documentation](https://aider.chat/docs/) |
+| Project page | [Aider documentation](https://aider.chat/docs/) |
 | Project-reported | [Repository map](https://aider.chat/docs/repomap.html) |
 | Project-reported | [Git integration](https://aider.chat/docs/git.html) |
 

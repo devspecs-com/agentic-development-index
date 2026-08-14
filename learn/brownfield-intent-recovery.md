@@ -5,7 +5,6 @@ summary: A cautious workflow for finding current intent among old plans, decisio
 category: learn
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/devspecs-com/agentic-development-index/blob/main/learn/brownfield-intent-recovery.md
 tags:
   - brownfield
   - retrieval
@@ -37,12 +36,11 @@ The output should be a starting boundary with confidence and exclusions, not an 
 
 Conservative recovery may stop where an experienced maintainer would continue. Aggressive retrieval may hand an agent a coherent but obsolete story. Prefer visible uncertainty and a narrow follow-up question over silent ranking confidence.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical guide | [Recover intent in a brownfield repository](https://github.com/devspecs-com/agentic-development-index/blob/main/learn/brownfield-intent-recovery.md) |
-| Primary architecture map | [arc42 documentation](https://docs.arc42.org/home/) |
-| Primary intent recovery workflow | [DevSpecs brownfield intent recovery](https://docs.devspecs.com/brownfield/recover-intent) |
+| Architecture documentation example | [arc42 documentation](https://docs.arc42.org/home/) |
+| Intent recovery workflow | [DevSpecs brownfield intent recovery](https://docs.devspecs.com/brownfield/recover-intent) |
 
 [Back to the index](../README.md#learning-guides)

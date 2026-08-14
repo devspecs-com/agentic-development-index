@@ -5,7 +5,6 @@ summary: A commercial AI code editor with repository rules, user rules, automati
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://cursor.com/
 tags:
   - coding-agent
   - memory
@@ -41,11 +40,11 @@ The mechanisms directly configure Cursor Agent and related Cursor features. Vers
 
 Generated memories are product-managed and privacy-mode dependent. Rules can guide behavior without proving current intent, validation, or human acceptance.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [Cursor](https://cursor.com/) |
+| Project page | [Cursor](https://cursor.com/) |
 | Project-reported | [Cursor rules and memories](https://docs.cursor.com/context/rules) |
 
 [Back to the index](../README.md#tools)

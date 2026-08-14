@@ -5,7 +5,6 @@ summary: An open-source specification workflow that keeps proposals, requirement
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/Fission-AI/OpenSpec
 tags:
   - specifications
   - brownfield
@@ -41,11 +40,11 @@ OpenSpec documents more than 30 tool integrations, including Claude Code, Cursor
 
 The default flow can mark implementation tasks complete without independently capturing all test or review evidence. Stores are documented as beta. Agent output quality remains model- and prompt-dependent.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [OpenSpec repository](https://github.com/Fission-AI/OpenSpec) |
+| Project page | [OpenSpec repository](https://github.com/Fission-AI/OpenSpec) |
 | Project-reported | [OpenSpec documentation](https://openspec.dev/) |
 
 [Back to the index](../README.md#tools)

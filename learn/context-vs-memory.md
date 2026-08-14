@@ -5,7 +5,6 @@ summary: A practical model for separating the evidence needed for the current ch
 category: learn
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://github.com/devspecs-com/agentic-development-index/blob/main/learn/context-vs-memory.md
 tags:
   - context
   - memory
@@ -37,12 +36,11 @@ This creates a useful asymmetry: context can be temporary and task-specific; mem
 
 Selective memory requires judgment and can omit a detail that later matters. Full transcripts retain more raw material but are expensive to inspect and may contain contradictions. The practical target is not total recall; it is enough provenance to recover the thread and verify important claims.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical guide | [Context and memory solve different problems](https://github.com/devspecs-com/agentic-development-index/blob/main/learn/context-vs-memory.md) |
-| Primary continuity implementation | [Entire documentation](https://docs.entire.io/) |
-| Primary task-context implementation | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
+| Session continuity example | [Entire documentation](https://docs.entire.io/) |
+| Task-context example | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
 [Back to the index](../README.md#learning-guides)

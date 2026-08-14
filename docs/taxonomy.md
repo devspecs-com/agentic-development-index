@@ -57,7 +57,7 @@ A coding agent belongs only when its durable context or lifecycle capability is 
 
 ### Tool-Format Relationships
 
-Format pages may curate tools through evidenced relationship verbs: creates, validates, renders, indexes, links, publishes, or manages lifecycle. The tool remains one canonical record under `tools/`; the format page is a discovery view rather than a duplicate profile.
+Format pages may curate tools through evidenced relationship verbs: creates, validates, renders, indexes, links, publishes, or manages lifecycle. The tool remains one maintained record under `tools/`; the format page is a discovery view rather than a duplicate profile.
 
 A framework that defines a workflow and emits several artifact types is classified as a tool. Its emitted ADR, RFC, PRD, specification, or task shape remains a format. Learning pages explain how to choose or combine them.
 

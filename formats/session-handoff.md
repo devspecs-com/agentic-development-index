@@ -5,7 +5,6 @@ summary: A durable continuation record containing the current goal, observed sta
 category: format
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://docs.entire.io/
 tags:
   - continuity
   - handoff
@@ -41,11 +40,11 @@ An agent should read the handoff as orientation, verify the repository state, an
 
 Entire captures coding-agent sessions and checkpoints alongside Git history. DevSpecs task checkpoints and next-slice prompts provide a repository-local handoff shaped around bounded execution.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical capture example | [Entire documentation](https://docs.entire.io/) |
+| Capture example | [Entire documentation](https://docs.entire.io/) |
 | Related workflow | [DevSpecs task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
 [Back to the index](../README.md#formats)

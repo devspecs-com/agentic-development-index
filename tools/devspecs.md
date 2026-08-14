@@ -5,7 +5,6 @@ summary: A local-first CLI that indexes repository intent, code, tests, and Git 
 category: tool
 status: reviewed
 last_verified: 2026-08-14
-canonical_url: https://www.devspecs.com/
 tags:
   - intent-index
   - artifact-composition
@@ -45,13 +44,13 @@ Task evidence is only as complete as the recorded checkpoint. Retrieval output i
 
 DevSpecs maintains this index. This affiliation does not change profile ordering, status, or evidence requirements; comparative claims require unaffiliated review.
 
-## Sources
+## Resources
 
-| Evidence | Source |
+| Resource | Link |
 | --- | --- |
-| Canonical | [DevSpecs](https://www.devspecs.com/) |
-| Canonical source | [DevSpecs CLI repository](https://github.com/devspecs-com/devspecs-cli) |
-| Canonical feature documentation | [`ds compose` durable documents](https://github.com/devspecs-com/devspecs-cli#durable-documents) |
+| Project page | [DevSpecs](https://www.devspecs.com/) |
+| Source repository | [DevSpecs CLI repository](https://github.com/devspecs-com/devspecs-cli) |
+| Feature guide | [`ds compose` durable documents](https://github.com/devspecs-com/devspecs-cli#durable-documents) |
 | Project-reported | [Task flow](https://docs.devspecs.com/greenfield/task-flow) |
 
 [Back to the index](../README.md#tools)
