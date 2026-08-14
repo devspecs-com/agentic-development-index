@@ -26,7 +26,7 @@ Open a focused pull request or issue containing:
 
 ### Add A Format Or Tool
 
-Explain how the item fits the charter, add a structured record using the current schema, cite primary sources for non-obvious claims, and avoid comparison language that is not supported by evidence.
+Explain how the item fits the charter, copy the relevant Markdown template, cite primary sources for non-obvious claims, and avoid comparison language that is not supported by evidence.
 
 ### Improve Learning Content
 
@@ -41,7 +41,7 @@ These contribution paths remain closed during the initial Formats, Learn, and To
 Reviewers check:
 
 - charter fit;
-- schema validity;
+- record-contract validity;
 - source quality;
 - evidence labels;
 - neutral and precise language;
@@ -53,7 +53,7 @@ Passing automated validation does not guarantee inclusion.
 
 ## Source Of Truth
 
-Edit the Markdown profile or guide directly. Lightweight metadata may support navigation and checks, but contributors should not have to maintain the same factual copy in a second file. Validation commands and templates will be documented when A02 lands.
+Edit the Markdown profile or guide directly. Lightweight metadata supports navigation and checks, but contributors do not maintain the same factual copy in a second file. See [docs/authoring-records.md](docs/authoring-records.md) for templates and validation.
 
 ## Conduct
 

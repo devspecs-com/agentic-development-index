@@ -6,9 +6,9 @@ The index is maintained by [DevSpecs](https://www.devspecs.com/), but it is desi
 
 ## What It Covers
 
-- **Formats:** durable artifacts such as ADRs, RFCs, PRDs, agent instructions, plans, task slices, checkpoints, and handoffs.
-- **Learn:** practical explanations, guides, comparisons, and periodic reports.
-- **Tools:** software for context, memory, specifications, lifecycle state, navigation, orchestration, and provenance.
+- **[Formats](formats/README.md):** durable artifacts such as ADRs, RFCs, PRDs, agent instructions, plans, task slices, checkpoints, and handoffs.
+- **[Learn](learn/README.md):** practical explanations, guides, comparisons, and periodic reports.
+- **[Tools](tools/README.md):** software for context, memory, specifications, lifecycle state, navigation, orchestration, and provenance.
 - **Datasets:** future registries for corpora with explicit provenance, licensing, and permitted use.
 - **Benchmarks:** future registries for reproducible evaluations and clearly attributed external results.
 

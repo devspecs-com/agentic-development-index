@@ -1,0 +1,202 @@
+{
+  "schema_version": 2,
+  "checkpoint_id": "cp_20260814T091854Z_a02_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A02",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A02",
+  "slice_title": "Define Markdown record contracts and lightweight validation",
+  "parent_slice": "A02",
+  "stage": "validated",
+  "decision": "promote",
+  "created_at": "2026-08-14T09:18:54Z",
+  "goal": "Define Markdown record contracts and lightweight validation",
+  "description": "Added GitHub-native category indexes and templates plus AST-based validation for metadata, evidence, local links, duplicate IDs, and index coverage.",
+  "resources": [
+    "../A00-index.md",
+    "../A02-define-markdown-record-contracts-and-validation-plan.md",
+    "../A02-define-markdown-record-contracts-and-validation-result.md",
+    "../task.json"
+  ],
+  "files_edited": [
+    "CONTRIBUTING.md",
+    "README.md",
+    "devspecs/tasks/agentic-development-index-v1/A02-define-markdown-record-contracts-and-validation-result.md",
+    ".github/workflows/validate.yml",
+    "docs/authoring-records.md",
+    "fixtures/valid/README.md",
+    "fixtures/valid/formats/README.md",
+    "fixtures/valid/formats/architecture-decision-record.md",
+    "fixtures/valid/formats/task-slice.md",
+    "fixtures/valid/learn/README.md",
+    "fixtures/valid/learn/asynchronous-handoffs.md",
+    "fixtures/valid/learn/context-and-memory.md",
+    "fixtures/valid/tools/README.md",
+    "fixtures/valid/tools/hosted-session-memory.md",
+    "fixtures/valid/tools/local-intent-index.md",
+    "formats/README.md",
+    "learn/README.md",
+    "package-lock.json",
+    "package.json",
+    "scripts/index-validation.mjs",
+    "scripts/validate-index.mjs",
+    "templates/format.md",
+    "templates/learn.md",
+    "templates/tool.md",
+    "tests/index-validation.test.mjs",
+    "tools/README.md"
+  ],
+  "tests_run": [
+    "npm test",
+    "npm run validate"
+  ],
+  "actual_context": {
+    "files_edited": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "devspecs/tasks/agentic-development-index-v1/A02-define-markdown-record-contracts-and-validation-result.md",
+      ".github/workflows/validate.yml",
+      "docs/authoring-records.md",
+      "fixtures/valid/README.md",
+      "fixtures/valid/formats/README.md",
+      "fixtures/valid/formats/architecture-decision-record.md",
+      "fixtures/valid/formats/task-slice.md",
+      "fixtures/valid/learn/README.md",
+      "fixtures/valid/learn/asynchronous-handoffs.md",
+      "fixtures/valid/learn/context-and-memory.md",
+      "fixtures/valid/tools/README.md",
+      "fixtures/valid/tools/hosted-session-memory.md",
+      "fixtures/valid/tools/local-intent-index.md",
+      "formats/README.md",
+      "learn/README.md",
+      "package-lock.json",
+      "package.json",
+      "scripts/index-validation.mjs",
+      "scripts/validate-index.mjs",
+      "templates/format.md",
+      "templates/learn.md",
+      "templates/tool.md",
+      "tests/index-validation.test.mjs",
+      "tools/README.md"
+    ],
+    "tests_run": [
+      "npm test",
+      "npm run validate"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "git_diff": {
+      "command": "git status --short --untracked-files=all; git diff --stat; git diff --name-only; git diff --cached --name-only; git ls-files --others --exclude-standard",
+      "status": " M CONTRIBUTING.md\n M README.md\n M devspecs/tasks/agentic-development-index-v1/A02-define-markdown-record-contracts-and-validation-result.md\n?? .github/workflows/validate.yml\n?? docs/authoring-records.md\n?? fixtures/valid/README.md\n?? fixtures/valid/formats/README.md\n?? fixtures/valid/formats/architecture-decision-record.md\n?? fixtures/valid/formats/task-slice.md\n?? fixtures/valid/learn/README.md\n?? fixtures/valid/learn/asynchronous-handoffs.md\n?? fixtures/valid/learn/context-and-memory.md\n?? fixtures/valid/tools/README.md\n?? fixtures/valid/tools/hosted-session-memory.md\n?? fixtures/valid/tools/local-intent-index.md\n?? formats/README.md\n?? learn/README.md\n?? package-lock.json\n?? package.json\n?? scripts/index-validation.mjs\n?? scripts/validate-index.mjs\n?? templates/format.md\n?? templates/learn.md\n?? templates/tool.md\n?? tests/index-validation.test.mjs\n?? tools/README.md\n",
+      "stat": " CONTRIBUTING.md                                    |  6 ++--\n README.md                                          |  6 ++--\n ...kdown-record-contracts-and-validation-result.md | 34 +++++++++++++++-------\n 3 files changed, 30 insertions(+), 16 deletions(-)\n",
+      "changed_files": [
+        "CONTRIBUTING.md",
+        "README.md",
+        "devspecs/tasks/agentic-development-index-v1/A02-define-markdown-record-contracts-and-validation-result.md",
+        ".github/workflows/validate.yml",
+        "docs/authoring-records.md",
+        "fixtures/valid/README.md",
+        "fixtures/valid/formats/README.md",
+        "fixtures/valid/formats/architecture-decision-record.md",
+        "fixtures/valid/formats/task-slice.md",
+        "fixtures/valid/learn/README.md",
+        "fixtures/valid/learn/asynchronous-handoffs.md",
+        "fixtures/valid/learn/context-and-memory.md",
+        "fixtures/valid/tools/README.md",
+        "fixtures/valid/tools/hosted-session-memory.md",
+        "fixtures/valid/tools/local-intent-index.md",
+        "formats/README.md",
+        "learn/README.md",
+        "package-lock.json",
+        "package.json",
+        "scripts/index-validation.mjs",
+        "scripts/validate-index.mjs",
+        "templates/format.md",
+        "templates/learn.md",
+        "templates/tool.md",
+        "tests/index-validation.test.mjs",
+        "tools/README.md"
+      ],
+      "max_bytes": 12000,
+      "truncated": false
+    },
+    "test_commands": [
+      {
+        "command": "npm test",
+        "exit_code": 0,
+        "output": "\n\u003e @devspecs/agentic-development-index@0.1.0 test\n\u003e node --test\n\nTAP version 13\n# Subtest: valid fixtures cover two records per launch category\nok 1 - valid fixtures cover two records per launch category\n  ---\n  duration_ms: 70.0646\n  ...\n# Subtest: malformed verification dates fail with the record path\nok 2 - malformed verification dates fail with the record path\n  ---\n  duration_ms: 75.5186\n  ...\n# Subtest: duplicate IDs identify both records\nok 3 - duplicate IDs identify both records\n  ---\n  duration_ms: 82.6318\n  ...\n# Subtest: records require visibly labeled canonical evidence\nok 4 - records require visibly labeled canonical evidence\n  ---\n  duration_ms: 64.1244\n  ...\n# Subtest: broken local links fail at the referring file\nok 5 - broken local links fail at the referring file\n  ---\n  duration_ms: 52.6156\n  ...\n# Subtest: unindexed records fail category coverage\nok 6 - unindexed records fail category coverage\n  ---\n  duration_ms: 41.9341\n  ...\n# Subtest: unsupported front matter fields fail instead of becoming metadata bags\nok 7 - unsupported front matter fields fail instead of becoming metadata bags\n  ---\n  duration_ms: 42.0033\n  ...\n# Subtest: the production repository navigation contract passes before catalog seeding\nok 8 - the production repository navigation contract passes before catalog seeding\n  ---\n  duration_ms: 19.8622\n  ...\n1..8\n# tests 8\n# suites 0\n# pass 8\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 679.3585\n",
+        "max_bytes": 12000,
+        "truncated": false
+      },
+      {
+        "command": "npm run validate",
+        "exit_code": 0,
+        "output": "\n\u003e @devspecs/agentic-development-index@0.1.0 validate\n\u003e node scripts/validate-index.mjs\n\nValidated 0 record(s) and the GitHub navigation contract.\n",
+        "max_bytes": 12000,
+        "truncated": false
+      }
+    ],
+    "git_diff_paths": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "devspecs/tasks/agentic-development-index-v1/A02-define-markdown-record-contracts-and-validation-result.md",
+      ".github/workflows/validate.yml",
+      "docs/authoring-records.md",
+      "fixtures/valid/README.md",
+      "fixtures/valid/formats/README.md",
+      "fixtures/valid/formats/architecture-decision-record.md",
+      "fixtures/valid/formats/task-slice.md",
+      "fixtures/valid/learn/README.md",
+      "fixtures/valid/learn/asynchronous-handoffs.md",
+      "fixtures/valid/learn/context-and-memory.md",
+      "fixtures/valid/tools/README.md",
+      "fixtures/valid/tools/hosted-session-memory.md",
+      "fixtures/valid/tools/local-intent-index.md",
+      "formats/README.md",
+      "learn/README.md",
+      "package-lock.json",
+      "package.json",
+      "scripts/index-validation.mjs",
+      "scripts/validate-index.mjs",
+      "templates/format.md",
+      "templates/learn.md",
+      "templates/tool.md",
+      "tests/index-validation.test.mjs",
+      "tools/README.md"
+    ],
+    "plan_refs": [
+      "../A00-index.md",
+      "../A02-define-markdown-record-contracts-and-validation-plan.md",
+      "../A02-define-markdown-record-contracts-and-validation-result.md",
+      "../task.json"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "authoring-contract",
+      "summary": "One Markdown page with compact front matter preserves a contributor-friendly source of truth while still supporting strict navigation and evidence checks.",
+      "evidence_refs": [
+        "docs/authoring-records.md",
+        "scripts/index-validation.mjs"
+      ],
+      "applies_to": "A03-A06",
+      "confidence": "high"
+    },
+    {
+      "learning_type": "fixture-coverage",
+      "summary": "Two fixtures per launch category plus mutation tests expose useful differences and expected failure messages without seeding production content early.",
+      "evidence_refs": [
+        "fixtures/valid",
+        "tests/index-validation.test.mjs"
+      ],
+      "applies_to": "A03-A04",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A03",
+    "recommended_decision": "promote"
+  }
+}
