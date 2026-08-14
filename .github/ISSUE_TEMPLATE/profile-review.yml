@@ -1,0 +1,54 @@
+name: Maintainer or independent profile review
+description: Confirm or correct a tool profile after checking its sourced claims
+title: "Profile review: "
+body:
+  - type: input
+    id: profile
+    attributes:
+      label: Profile
+      description: Link to the tool profile you reviewed.
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: Relationship
+      options:
+        - Project maintainer or employee
+        - Contributor to the project
+        - Independent user
+        - Independent researcher or reviewer
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Review result
+      options:
+        - Factually accurate as written
+        - Accurate with minor corrections
+        - Material correction required
+        - Classification disputed
+    validations:
+      required: true
+  - type: textarea
+    id: corrections
+    attributes:
+      label: Corrections or qualifications
+      description: Quote affected claims and provide primary sources for requested changes. Write "none" when confirming the profile as written.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or date reviewed
+      description: Product version, commit, release, or review date used for verification.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I reviewed the profile's capabilities, deployment/storage, agent support, limitations, and source links.
+          required: true

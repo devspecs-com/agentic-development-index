@@ -99,7 +99,7 @@ test("the production repository validates the initial format, learning, and tool
 });
 
 test("contribution issue forms remain valid YAML", async () => {
-  for (const filename of ["factual-correction.yml", "disputed-claim.yml", "new-record.yml"]) {
+  for (const filename of ["factual-correction.yml", "disputed-claim.yml", "new-record.yml", "profile-review.yml"]) {
     const source = await readFile(path.join(repositoryRoot, ".github", "ISSUE_TEMPLATE", filename), "utf8");
     const form = parse(source);
     assert.equal(typeof form.name, "string");

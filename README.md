@@ -30,12 +30,13 @@ It is not a general AI-tools directory, paid marketplace, endorsement program, o
 - Inclusion is free. Paid placement and required backlinks are not accepted.
 - Affiliations and conflicts of interest are disclosed.
 
-Read the [methodology](METHODOLOGY.md), [project charter](CHARTER.md), and [taxonomy](docs/taxonomy.md).
+Read the [methodology](METHODOLOGY.md), [project charter](CHARTER.md), [taxonomy](docs/taxonomy.md), and current [external review status](REVIEWS.md).
 
 ## Contribute
 
 - [Correct a factual claim](https://github.com/devspecs-com/agentic-development-index/issues/new?template=factual-correction.yml)
 - [Dispute a classification or interpretation](https://github.com/devspecs-com/agentic-development-index/issues/new?template=disputed-claim.yml)
+- [Verify a profile you maintain](https://github.com/devspecs-com/agentic-development-index/issues/new?template=profile-review.yml)
 - [Propose a new record](https://github.com/devspecs-com/agentic-development-index/issues/new?template=new-record.yml)
 - [Author a record directly](CONTRIBUTING.md)
 
