@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "event_kind": "task_checkpoint",
+  "checkpoint_id": "cp_20260814T103505Z_a06-1_validated",
+  "task_id": "agentic-development-index-v1",
+  "target": "A06-1",
+  "series": "A",
+  "query": "Build the evidence-backed Agentic Development Index foundation and a launchable Formats, Learn, and Tools v1",
+  "slice": "A06-1",
+  "slice_title": "Merge configure GitHub request reviews and publish v0.1.0",
+  "parent_slice": "A06",
+  "iteration": "A06-1",
+  "stage": "validated",
+  "decision": "improve",
+  "created_at": "2026-08-14T10:35:05Z",
+  "goal": "Publish the verified v0.1.0 GitHub index without overstating external review",
+  "description": "Merged PR #1 to main, passed clean-main QA and hosted CI, published tag v0.1.0, verified all five contribution forms, and versioned a 1280x640 social preview. Owner-authenticated GitHub settings and release-page publication remain.",
+  "note": "Pending authenticated GitHub UI work: About copy, seven topics, social preview upload, required CI protection, and release page. Public review requests remain exactly 0; no unsolicited receipts were fabricated.",
+  "resources": [
+    "../A00-index.md",
+    "../A06-1-merge-configure-github-request-reviews-and-publi-plan.md",
+    "../A06-1-merge-configure-github-request-reviews-and-publi-result.md",
+    "../task.json",
+    "https://github.com/devspecs-com/agentic-development-index/pull/1",
+    "https://github.com/devspecs-com/agentic-development-index/releases/tag/v0.1.0",
+    "https://github.com/devspecs-com/agentic-development-index/actions/runs/31792731643/job/94743051098"
+  ],
+  "files_edited": [
+    ".github/social-preview.html",
+    ".github/social-preview.png",
+    "docs/maintainer-checklist.md"
+  ],
+  "tests_run": [
+    "npm ci",
+    "npm test",
+    "npm run validate",
+    "npm run qa:links"
+  ],
+  "actual_context": {
+    "files_edited": [
+      ".github/social-preview.html",
+      ".github/social-preview.png",
+      "docs/maintainer-checklist.md"
+    ],
+    "tests_run": [
+      "npm ci",
+      "npm test",
+      "npm run validate",
+      "npm run qa:links"
+    ]
+  },
+  "predicted_context_feedback": {},
+  "evidence": {
+    "plan_refs": [
+      "../A00-index.md",
+      "../A06-1-merge-configure-github-request-reviews-and-publi-plan.md",
+      "../A06-1-merge-configure-github-request-reviews-and-publi-result.md",
+      "../task.json",
+      "https://github.com/devspecs-com/agentic-development-index/pull/1",
+      "https://github.com/devspecs-com/agentic-development-index/releases/tag/v0.1.0",
+      "https://github.com/devspecs-com/agentic-development-index/actions/runs/31792731643/job/94743051098"
+    ]
+  },
+  "learnings": [
+    {
+      "learning_type": "operation",
+      "summary": "The Git catalog and tag can ship over SSH, while About metadata, branch protection, social-preview upload, and GitHub release creation require an authenticated owner session.",
+      "evidence_refs": [
+        "docs/maintainer-checklist.md"
+      ],
+      "applies_to": "A06-1",
+      "confidence": "high"
+    }
+  ],
+  "next": {
+    "recommended_target": "A06-1",
+    "recommended_decision": "complete"
+  }
+}
