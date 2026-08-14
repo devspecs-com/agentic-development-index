@@ -30,6 +30,14 @@ Draft the PRD during discovery, review it with affected owners, and mark the app
 
 An agent can turn requirements into questions, acceptance checks, or bounded implementation slices. It should not invent missing product policy, convert tentative ideas into requirements, or use an old PRD without checking current status.
 
+## Related Tools
+
+The relationship describes the evidenced PRD job, not an overall product ranking. The link opens the canonical tool profile maintained by this index.
+
+| Tool | Relationship to PRDs |
+| --- | --- |
+| [DevSpecs](../tools/devspecs.md) | Composes repo-owned PRD drafts, captures them in its local index, and can link them to bounded task tracks. |
+
 ## Pitfalls
 
 - Mixing product outcomes with a preselected architecture.

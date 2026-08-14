@@ -68,7 +68,7 @@ Software that preserves or exposes coding-agent context, intent, work state, evi
 | [Codex](tools/codex.md) | Coding agent with layered project instructions | CLI, app, and cloud; repository and user files | Yes |
 | [Continue](tools/continue.md) | Configurable coding agents and rules | IDE/CLI; local or shared configuration | Yes |
 | [Cursor](tools/cursor.md) | AI editor with rules and memories | Desktop editor; repository rules and product memory | Yes |
-| [DevSpecs](tools/devspecs.md) | Local intent index and task lifecycle | Local CLI; SQLite plus repository Markdown | No |
+| [DevSpecs](tools/devspecs.md) | Local intent index, durable artifact composition, and task lifecycle | Local CLI; SQLite plus repository Markdown | No |
 | [Entire](tools/entire.md) | Coding-agent session capture | CLI; Git-backed checkpoints | No for capture |
 | [GitHub Copilot](tools/github-copilot.md) | Coding agent with repository instructions | Hosted service; repository instructions | Yes |
 | [GitHub Spec Kit](tools/github-spec-kit.md) | Specification-driven workflow harness | Local CLI; repository Markdown and state | Yes for agent steps |

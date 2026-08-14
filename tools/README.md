@@ -21,7 +21,7 @@ Profiles are alphabetical. "LLM required" means the documented workflow depends 
 | [Codex](codex.md) | Coding agent with layered project instructions | CLI/app/cloud; repo and user files | Yes |
 | [Continue](continue.md) | Configurable coding agents and rules | IDE/CLI; local or shared configuration | Yes |
 | [Cursor](cursor.md) | AI editor with rules and memories | Desktop editor; repo rules and product memory | Yes |
-| [DevSpecs](devspecs.md) | Local intent index and task lifecycle | Local CLI; SQLite plus repository Markdown | No |
+| [DevSpecs](devspecs.md) | Local intent index, durable artifact composition, and task lifecycle | Local CLI; SQLite plus repository Markdown | No |
 | [Entire](entire.md) | Coding-agent session capture | CLI; Git-backed checkpoints | No for capture |
 | [GitHub Copilot](github-copilot.md) | Coding agent with repository instructions | Hosted service; repository instructions | Yes |
 | [GitHub Spec Kit](github-spec-kit.md) | Specification-driven workflow harness | Local CLI; repository Markdown/state | Yes for agent steps |

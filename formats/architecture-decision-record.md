@@ -50,7 +50,7 @@ The relationship describes the evidenced ADR job, not an overall product ranking
 | [ADRs](../tools/adrs.md) | Creates, searches, checks, converts, and exposes Nygard or MADR records through a cross-platform CLI and optional MCP server. |
 | [Backstage ADR Plugin](../tools/backstage-adr-plugin.md) | Retrieves, renders, and searches repository ADRs through a Backstage developer portal. |
 | [Log4brains](../tools/log4brains.md) | Creates repository ADRs and publishes a searchable static decision log. |
-| [DevSpecs](../tools/devspecs.md) | Indexes ADRs beside plans, source, tests, Git activity, and bounded task records. |
+| [DevSpecs](../tools/devspecs.md) | Composes repo-owned ADR drafts and indexes them beside plans, source, tests, Git activity, and bounded task records. |
 
 ## Related Formats
 
@@ -67,7 +67,7 @@ The relationship describes the evidenced ADR job, not an overall product ranking
 
 ## Examples
 
-Michael Nygard's original article includes the compact record structure and supersession model. The [MADR project](https://adr.github.io/madr/) provides full and minimal Markdown templates. The ADR GitHub organization compares [Nygard, MADR, Y-Statement, and other templates](https://adr.github.io/adr-templates/) and maintains a separate, inclusive [decision-capturing tool catalog](https://adr.github.io/adr-tooling/).
+Michael Nygard's original article includes the compact record structure and supersession model. The [MADR project](https://adr.github.io/madr/) provides full and minimal Markdown templates. The ADR GitHub organization compares [Nygard, MADR, Y-Statement, and other templates](https://adr.github.io/adr-templates/) and maintains a separate, inclusive [decision-capturing tool catalog](https://adr.github.io/adr-tooling/). [adr.zone](https://adr.zone/) offers a browsable guide to ADR formats, templates, examples, and tooling.
 
 ## Sources
 

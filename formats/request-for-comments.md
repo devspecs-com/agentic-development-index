@@ -30,6 +30,14 @@ An RFC normally moves from draft through review to accepted, rejected, or withdr
 
 Agents can summarize open questions, compare the proposal with repository evidence, and draft amendments. They should distinguish a draft proposal from an accepted instruction and should not infer acceptance from the presence of a file.
 
+## Related Tools
+
+The relationship describes the evidenced RFC job, not an overall product ranking. The link opens the canonical tool profile maintained by this index.
+
+| Tool | Relationship to RFCs |
+| --- | --- |
+| [DevSpecs](../tools/devspecs.md) | Composes repo-owned RFC drafts, captures them in its local index, and can link them to bounded task tracks. |
+
 ## Pitfalls
 
 - Calling a document an RFC after implementation has already made review meaningless.
